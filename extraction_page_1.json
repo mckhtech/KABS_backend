@@ -1,0 +1,75 @@
+{
+  "view_type": "elevation",
+  "items": [
+    {
+      "label": "BC242484-1TDL",
+      "category": "cabinet",
+      "position": {
+        "x": 0,
+        "y": 120
+      },
+      "dimensions": {
+        "width": 24.0,
+        "height": 84.0,
+        "depth": 24.0
+      },
+      "notes": "Base corner cabinet, tall"
+    },
+    {
+      "label": "W302442-1DLH",
+      "category": "wall_cabinet",
+      "position": {
+        "x": 24,
+        "y": 0
+      },
+      "dimensions": {
+        "width": 30.0,
+        "height": 42.0,
+        "depth": 24.0
+      },
+      "notes": "Wall cabinet, double left hinge"
+    },
+    {
+      "label": "USF30",
+      "category": "filler",
+      "position": {
+        "x": 54,
+        "y": 0
+      },
+      "dimensions": {
+        "width": 30.0,
+        "height": 0.0,
+        "depth": 0.0
+      },
+      "notes": "Universal shelf filler"
+    },
+    {
+      "label": "FLAT PNL 545",
+      "category": "panel",
+      "position": {
+        "x": 84,
+        "y": 0
+      },
+      "dimensions": {
+        "width": 24.0,
+        "height": 0.0,
+        "depth": 0.0
+      },
+      "notes": "Flat panel"
+    },
+    {
+      "label": "SMEG Steam Oven SFA4304MCX",
+      "category": "appliance",
+      "position": {
+        "x": 108,
+        "y": 0
+      },
+      "dimensions": {
+        "width": 24.0,
+        "height": 0.0,
+        "depth": 0.0
+      },
+      "notes": "Steam oven"
+    }
+  ]
+}

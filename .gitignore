@@ -1,0 +1,6 @@
+.env
+*.pyc
+__pycache__/
+media/
+staticfiles/
+chroma_db/
