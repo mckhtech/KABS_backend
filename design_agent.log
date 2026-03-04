@@ -20428,3 +20428,1637 @@ INFO 2025-10-31 16:02:02,167 preview_3d_views 11100 6724 Including 18 SKU labels
 INFO 2025-10-31 16:02:21,170 preview_3d_renderer 11100 6724    Saved to: /media/3d_previews/2025/10/3d_preview_page_2_1761906741.png
 INFO 2025-10-31 16:02:40,122 preview_3d_views 11100 6724 Including 26 SKU labels in 3D preview
 INFO 2025-10-31 16:02:58,881 preview_3d_renderer 11100 6724    Saved to: /media/3d_previews/2025/10/3d_preview_page_3_1761906778.png
+INFO 2025-11-09 20:47:01,588 views 31940 13408 Queued PDF conversion for project 1fd93170-f488-42e2-ac81-34067c50f261: task 3f0351c5-a09f-4e14-afaa-f74266be4bef
+INFO 2025-11-09 20:47:02,746 pdf_parser 26228 30784 Converting PDF 62c61819-3d8f-491b-8511-30adb8d296c1 to images at 300 DPI
+INFO 2025-11-09 20:47:08,876 pdf_parser 26228 30784 Created page 1 for PDF 62c61819-3d8f-491b-8511-30adb8d296c1
+INFO 2025-11-09 20:47:10,006 pdf_parser 26228 30784 Created page 2 for PDF 62c61819-3d8f-491b-8511-30adb8d296c1
+INFO 2025-11-09 20:47:10,727 pdf_parser 26228 30784 Created page 3 for PDF 62c61819-3d8f-491b-8511-30adb8d296c1
+INFO 2025-11-09 20:47:11,909 views 31940 44584 Queued PDF conversion for project fbe77114-d547-4e93-bc0f-5e7ae0265f81: task b10da335-962a-4a2b-aee9-0cac560131ad
+INFO 2025-11-09 20:47:15,177 pdf_parser 26228 30784 Converting PDF 3ee765c3-4eea-4098-a184-ad5b5e05dc6d to images at 300 DPI
+INFO 2025-11-09 20:47:20,694 pdf_parser 26228 30784 Created page 1 for PDF 3ee765c3-4eea-4098-a184-ad5b5e05dc6d
+INFO 2025-11-09 20:47:21,505 pdf_parser 26228 30784 Created page 2 for PDF 3ee765c3-4eea-4098-a184-ad5b5e05dc6d
+INFO 2025-11-09 20:47:21,820 pdf_parser 26228 30784 Created page 3 for PDF 3ee765c3-4eea-4098-a184-ad5b5e05dc6d
+INFO 2025-11-09 20:47:25,109 views 31940 39844 Queued extraction for 3 pages: task a9e75a25-6c8c-4dce-885a-aaaa074688a0
+INFO 2025-11-09 20:47:25,547 tasks 26228 30784    Image path: D:\KABS\media\pdf_pages\2025\11\page_1_3ee765c3-4eea-4098-a184-ad5b5e05dc6d.png
+INFO 2025-11-09 20:47:28,133 unified_extractor 26228 30784    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 20:47:28,134 unified_extractor 26228 30784    Region: eu-north-1
+INFO 2025-11-09 20:47:28,135 unified_extractor 26228 30784    Account: 774846457232
+INFO 2025-11-09 20:47:28,641 unified_extractor 26228 30784    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 20:47:42,680 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:47:42,685 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:47:42,686 tasks 26228 30784 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-09 20:47:42,688 tasks 26228 30784 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-09 20:47:42,689 tasks 26228 30784 I'll analyze this kitchen layout drawing and extract all the SKU codes visible in the image.
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 4,
+  "items": [
+    {
+      "label": "Foster Leonardo 33\" Zip water Faucet",
+      "category": "fixture",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 495, "y": 465},
+      "notes": "Water faucet specification"
+    },
+    {
+      "label": "SHARP Steam Oven SFO230/CYO Warming Drawer CPRU33BX",
+      "category": "appliance",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 520, "y": 675},
+      "notes": "Steam oven with warming drawer"
+    },
+    {
+      "label": "FLAT PNL 3/4",
+      "category": "panel",
+      "dimensions": {"width": null, "height": null, "depth": 0.75},
+      "position": {"x": 450, "y": 720},
+      "notes": "Panel specification"
+    },
+    {
+      "label": "610 hillsborough Display 17.kit",
+      "category": "project_identifier",
+    
+INFO 2025-11-09 20:47:42,691 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:47:42,703 tasks 26228 30784    View Type: elevation
+INFO 2025-11-09 20:47:42,705 tasks 26228 30784    Total SKUs Claimed: 4
+INFO 2025-11-09 20:47:42,707 tasks 26228 30784    Items Array Length: 4
+INFO 2025-11-09 20:47:42,719 tasks 26228 30784    1. Foster Leonardo 33" Zip water Faucet (fixture) - W:None, H:None, D:None
+INFO 2025-11-09 20:47:42,721 tasks 26228 30784    2. SHARP Steam Oven SFO230/CYO Warming Drawer CPRU33BX (appliance) - W:None, H:None, D:None
+INFO 2025-11-09 20:47:42,723 tasks 26228 30784    3. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 20:47:42,724 tasks 26228 30784    4. 610 hillsborough Display 17.kit (project_identifier) - W:None, H:None, D:None
+INFO 2025-11-09 20:47:42,726 tasks 26228 30784 ======================================================================
+WARNING 2025-11-09 20:47:42,789 tasks 26228 30784    This may indicate extraction quality issues
+INFO 2025-11-09 20:47:42,913 tasks 26228 30784    Image path: D:\KABS\media\pdf_pages\2025\11\page_2_3ee765c3-4eea-4098-a184-ad5b5e05dc6d.png
+INFO 2025-11-09 20:47:44,208 unified_extractor 26228 30784    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 20:47:44,208 unified_extractor 26228 30784    Region: eu-north-1
+INFO 2025-11-09 20:47:44,209 unified_extractor 26228 30784    Account: 774846457232
+INFO 2025-11-09 20:47:44,665 unified_extractor 26228 30784    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 20:48:16,911 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:48:16,917 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:48:16,918 tasks 26228 30784 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-09 20:48:16,920 tasks 26228 30784 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-09 20:48:16,924 tasks 26228 30784 I'll analyze this kitchen cabinet elevation drawing and extract all the SKU codes systematically.
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 24,
+  "items": [
+    {
+      "label": "HIN-FLIPUP-AHK",
+      "category": "hardware",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 546, "y": 103},
+      "notes": "Blum Aventos HKS Flip Up Doors Power assist"
+    },
+    {
+      "label": "WP2424-15HK",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 24.0, "height": null, "depth": 15.0},
+      "position": {"x": 67, "y": 293},
+      "notes": "Wall cabinet with flip-up door"
+    },
+    {
+      "label": "WP3024-15HK",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": null, "depth": 15.0},
+      "position": {"x": 91, "y": 293},
+      "notes": "Wall cabinet with flip-up door"
+    },
+    {
+      "label": "WP3024-15HK",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": null,
+INFO 2025-11-09 20:48:16,926 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:48:16,935 tasks 26228 30784    View Type: elevation
+INFO 2025-11-09 20:48:16,936 tasks 26228 30784    Total SKUs Claimed: 24
+INFO 2025-11-09 20:48:16,938 tasks 26228 30784    Items Array Length: 24
+INFO 2025-11-09 20:48:16,944 tasks 26228 30784    1. HIN-FLIPUP-AHK (hardware) - W:None, H:None, D:None
+INFO 2025-11-09 20:48:16,945 tasks 26228 30784    2. WP2424-15HK (wall_cabinet) - W:24.0, H:None, D:15.0
+INFO 2025-11-09 20:48:16,946 tasks 26228 30784    3. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 20:48:16,950 tasks 26228 30784    4. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 20:48:16,952 tasks 26228 30784    5. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 20:48:16,953 tasks 26228 30784    6. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 20:48:16,954 tasks 26228 30784    7. WP3624-15HK (wall_cabinet) - W:36.0, H:None, D:15.0
+INFO 2025-11-09 20:48:16,955 tasks 26228 30784    8. WP1824-15HK (wall_cabinet) - W:18.0, H:None, D:15.0
+INFO 2025-11-09 20:48:16,958 tasks 26228 30784    9. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 20:48:16,959 tasks 26228 30784    10. W2130-15L (wall_cabinet) - W:21.0, H:30.0, D:15.0
+INFO 2025-11-09 20:48:16,960 tasks 26228 30784    11. W4230-15 (wall_cabinet) - W:42.0, H:30.0, D:15.0
+INFO 2025-11-09 20:48:16,961 tasks 26228 30784    12. W2130-15R (wall_cabinet) - W:21.0, H:30.0, D:15.0
+INFO 2025-11-09 20:48:16,961 tasks 26228 30784    13. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 20:48:16,962 tasks 26228 30784    14. FSEP (filler) - W:None, H:None, D:None
+INFO 2025-11-09 20:48:16,963 tasks 26228 30784    15. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 20:48:16,963 tasks 26228 30784    16. FL3102 (filler) - W:None, H:None, D:None
+INFO 2025-11-09 20:48:16,964 tasks 26228 30784    17. B-3242484-1TDL (base_cabinet) - W:32.0, H:24.0, D:24.0
+INFO 2025-11-09 20:48:16,965 tasks 26228 30784    18. OV302D84 (oven_cabinet) - W:30.0, H:None, D:24.0
+INFO 2025-11-09 20:48:16,966 tasks 26228 30784    19. Rev-A-Shelf Pull Down Shelf FLAT PNL 3/4 5PD-4CRN (hardware) - W:None, H:None, D:0.75
+INFO 2025-11-09 20:48:16,967 tasks 26228 30784    20. BI-36U/O-RH (appliance) - W:36.0, H:None, D:None
+INFO 2025-11-09 20:48:16,968 tasks 26228 30784    21. B-1824841-R (base_cabinet) - W:18.0, H:24.0, D:24.0
+INFO 2025-11-09 20:48:16,968 tasks 26228 30784    22. DISH-FIGE (appliance) - W:None, H:None, D:None
+INFO 2025-11-09 20:48:16,970 tasks 26228 30784    23. SB42FH (base_cabinet) - W:42.0, H:None, D:None
+INFO 2025-11-09 20:48:16,971 tasks 26228 30784    24. BTB24KSBFH (base_cabinet) - W:24.0, H:None, D:None
+INFO 2025-11-09 20:48:16,973 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:48:17,101 tasks 26228 30784    Image path: D:\KABS\media\pdf_pages\2025\11\page_3_3ee765c3-4eea-4098-a184-ad5b5e05dc6d.png
+INFO 2025-11-09 20:48:18,474 unified_extractor 26228 30784    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 20:48:18,475 unified_extractor 26228 30784    Region: eu-north-1
+INFO 2025-11-09 20:48:18,475 unified_extractor 26228 30784    Account: 774846457232
+INFO 2025-11-09 20:48:18,846 unified_extractor 26228 30784    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 20:48:31,063 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:48:31,066 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:48:31,067 tasks 26228 30784 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-09 20:48:31,068 tasks 26228 30784 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-09 20:48:31,068 tasks 26228 30784 I've analyzed the kitchen/bathroom layout drawing and extracted all visible SKU codes. Here's the detailed information:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 6,
+  "items": [
+    {
+      "label": "CKT.36",
+      "category": "appliance",
+      "dimensions": {"width": 36.0, "height": null, "depth": null},
+      "position": {"x": 54, "y": 10},
+      "notes": "Cooktop 36 inch"
+    },
+    {
+      "label": "DB24",
+      "category": "base_cabinet",
+      "dimensions": {"width": 24.0, "height": 34.5, "depth": null},
+      "position": {"x": 12, "y": 40},
+      "notes": "Drawer base cabinet 24 inch"
+    },
+    {
+      "label": "SB42FH",
+      "category": "base_cabinet",
+      "dimensions": {"width": 42.0, "height": 34.5, "depth": null},
+      "position": {"x": 45, "y": 40},
+      "notes": "Sink base cabinet 42 inch full height"
+    },
+    {
+      "label": "B15FHR",
+      "category": "base_cabinet",
+      "dimensions": {"width": 15.0, "height": 34.5, "depth": null},
+      "positio
+INFO 2025-11-09 20:48:31,069 tasks 26228 30784 ======================================================================
+INFO 2025-11-09 20:48:31,074 tasks 26228 30784    View Type: elevation
+INFO 2025-11-09 20:48:31,075 tasks 26228 30784    Total SKUs Claimed: 6
+INFO 2025-11-09 20:48:31,077 tasks 26228 30784    Items Array Length: 6
+INFO 2025-11-09 20:48:31,082 tasks 26228 30784    1. CKT.36 (appliance) - W:36.0, H:None, D:None
+INFO 2025-11-09 20:48:31,084 tasks 26228 30784    2. DB24 (base_cabinet) - W:24.0, H:34.5, D:None
+INFO 2025-11-09 20:48:31,086 tasks 26228 30784    3. SB42FH (base_cabinet) - W:42.0, H:34.5, D:None
+INFO 2025-11-09 20:48:31,087 tasks 26228 30784    4. B15FHR (base_cabinet) - W:15.0, H:34.5, D:None
+INFO 2025-11-09 20:48:31,088 tasks 26228 30784    5. USF330B (filler) - W:3.0, H:34.5, D:None
+INFO 2025-11-09 20:48:31,089 tasks 26228 30784    6. DB24-2D (base_cabinet) - W:24.0, H:34.5, D:None
+INFO 2025-11-09 20:48:31,090 tasks 26228 30784 ======================================================================
+WARNING 2025-11-09 20:48:31,110 tasks 26228 30784    This may indicate extraction quality issues
+INFO 2025-11-09 20:49:26,690 sku_matcher 31940 43208    Found 4 items to match
+INFO 2025-11-09 20:49:26,690 sku_matcher 31940 43208    Item 1: Processing 'Foster Leonardo 33" Zip water Faucet' (category: fixture)
+INFO 2025-11-09 20:49:28,811 sku_matcher 31940 43208    Item 2: Processing 'SHARP Steam Oven SFO230/CYO Warming Drawer CPRU33BX' (category: appliance)
+INFO 2025-11-09 20:49:28,839 sku_matcher 31940 43208    Item 3: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 20:49:28,883 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:28,883 sku_matcher 31940 43208    Item 4: Processing '610 hillsborough Display 17.kit' (category: project_identifier)
+INFO 2025-11-09 20:49:28,918 sku_matcher 31940 43208    Found 24 items to match
+INFO 2025-11-09 20:49:28,918 sku_matcher 31940 43208    Item 1: Processing 'HIN-FLIPUP-AHK' (category: hardware)
+INFO 2025-11-09 20:49:28,935 sku_matcher 31940 43208    Item 2: Processing 'WP2424-15HK' (category: wall_cabinet)
+INFO 2025-11-09 20:49:28,945 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:28,946 sku_matcher 31940 43208    Item 3: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 20:49:28,962 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:28,962 sku_matcher 31940 43208    Item 4: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 20:49:28,975 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:28,976 sku_matcher 31940 43208    Item 5: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 20:49:28,988 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:28,988 sku_matcher 31940 43208    Item 6: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 20:49:29,000 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,000 sku_matcher 31940 43208    Item 7: Processing 'WP3624-15HK' (category: wall_cabinet)
+INFO 2025-11-09 20:49:29,010 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,010 sku_matcher 31940 43208    Item 8: Processing 'WP1824-15HK' (category: wall_cabinet)
+INFO 2025-11-09 20:49:29,022 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,022 sku_matcher 31940 43208    Item 9: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 20:49:29,043 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,044 sku_matcher 31940 43208    Item 10: Processing 'W2130-15L' (category: wall_cabinet)
+INFO 2025-11-09 20:49:29,058 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,058 sku_matcher 31940 43208    Item 11: Processing 'W4230-15' (category: wall_cabinet)
+INFO 2025-11-09 20:49:29,070 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,070 sku_matcher 31940 43208    Item 12: Processing 'W2130-15R' (category: wall_cabinet)
+INFO 2025-11-09 20:49:29,081 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,081 sku_matcher 31940 43208    Item 13: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 20:49:29,090 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,090 sku_matcher 31940 43208    Item 14: Processing 'FSEP' (category: filler)
+INFO 2025-11-09 20:49:29,105 sku_matcher 31940 43208    Item 15: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 20:49:29,114 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,114 sku_matcher 31940 43208    Item 16: Processing 'FL3102' (category: filler)
+INFO 2025-11-09 20:49:29,127 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,127 sku_matcher 31940 43208    Item 17: Processing 'B-3242484-1TDL' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,149 sku_matcher 31940 43208       Method: fuzzy_code (0.89)
+INFO 2025-11-09 20:49:29,149 sku_matcher 31940 43208    Item 18: Processing 'OV302D84' (category: oven_cabinet)
+INFO 2025-11-09 20:49:29,162 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,163 sku_matcher 31940 43208    Item 19: Processing 'Rev-A-Shelf Pull Down Shelf FLAT PNL 3/4 5PD-4CRN' (category: hardware)
+INFO 2025-11-09 20:49:29,183 sku_matcher 31940 43208       Method: dimensions (0.73)
+INFO 2025-11-09 20:49:29,183 sku_matcher 31940 43208    Item 20: Processing 'BI-36U/O-RH' (category: appliance)
+INFO 2025-11-09 20:49:29,191 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,191 sku_matcher 31940 43208    Item 21: Processing 'B-1824841-R' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,206 sku_matcher 31940 43208       Method: fuzzy_code (0.82)
+INFO 2025-11-09 20:49:29,206 sku_matcher 31940 43208    Item 22: Processing 'DISH-FIGE' (category: appliance)
+INFO 2025-11-09 20:49:29,216 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,216 sku_matcher 31940 43208    Item 23: Processing 'SB42FH' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,225 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,225 sku_matcher 31940 43208    Item 24: Processing 'BTB24KSBFH' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,234 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,245 sku_matcher 31940 43208    Found 6 items to match
+INFO 2025-11-09 20:49:29,245 sku_matcher 31940 43208    Item 1: Processing 'CKT.36' (category: appliance)
+INFO 2025-11-09 20:49:29,254 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,254 sku_matcher 31940 43208    Item 2: Processing 'DB24' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,265 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,265 sku_matcher 31940 43208    Item 3: Processing 'SB42FH' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,274 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,275 sku_matcher 31940 43208    Item 4: Processing 'B15FHR' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,285 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,286 sku_matcher 31940 43208    Item 5: Processing 'USF330B' (category: filler)
+INFO 2025-11-09 20:49:29,296 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,296 sku_matcher 31940 43208    Item 6: Processing 'DB24-2D' (category: base_cabinet)
+INFO 2025-11-09 20:49:29,305 sku_matcher 31940 43208       Method: exact_code
+INFO 2025-11-09 20:49:29,311 views 31940 43208 Matched 29 items for project fbe77114-d547-4e93-bc0f-5e7ae0265f81
+INFO 2025-11-09 20:49:43,052 views 31940 30816 Queued 3 renders for project fbe77114-d547-4e93-bc0f-5e7ae0265f81: task d598f717-6f34-4885-9f91-460b7c93752a
+INFO 2025-11-09 20:49:44,574 gemini_renderer 26228 30784    SKUs matched: 1
+INFO 2025-11-09 20:49:46,467 gemini_renderer 26228 30784    SKUs matched: 22
+INFO 2025-11-09 20:49:49,057 gemini_renderer 26228 30784    SKUs matched: 6
+INFO 2025-11-09 20:54:58,355 views 16592 23004 Queued 3 renders for project fbe77114-d547-4e93-bc0f-5e7ae0265f81: task af9f5010-4da7-468c-bcb9-f137366587a4
+INFO 2025-11-09 20:54:59,437 gemini_renderer 26228 30784    SKUs matched: 1
+INFO 2025-11-09 20:55:00,533 gemini_renderer 26228 30784    SKUs matched: 22
+INFO 2025-11-09 20:55:01,615 gemini_renderer 26228 30784    SKUs matched: 6
+INFO 2025-11-09 20:59:20,471 views 16592 4520 Queued 3 renders for project fbe77114-d547-4e93-bc0f-5e7ae0265f81: task 3d4c268b-6527-48f8-9b62-713c75e91feb
+INFO 2025-11-09 20:59:23,700 gemini_renderer 26228 30784    SKUs matched: 1
+INFO 2025-11-09 20:59:25,322 gemini_renderer 26228 30784    SKUs matched: 22
+INFO 2025-11-09 20:59:26,546 gemini_renderer 26228 30784    SKUs matched: 6
+INFO 2025-11-09 21:01:34,842 views 40720 42104 Queued PDF conversion for project 1f81bc55-1158-4601-b066-80207fab938f: task 6283669d-5dbc-4be1-b474-5342744684af
+INFO 2025-11-09 21:01:36,423 pdf_parser 11724 25584 Converting PDF 5191fd29-c0ce-477e-958c-e809ca7e3816 to images at 300 DPI
+INFO 2025-11-09 21:01:43,856 pdf_parser 11724 25584 Created page 1 for PDF 5191fd29-c0ce-477e-958c-e809ca7e3816
+INFO 2025-11-09 21:01:45,020 pdf_parser 11724 25584 Created page 2 for PDF 5191fd29-c0ce-477e-958c-e809ca7e3816
+INFO 2025-11-09 21:01:45,709 pdf_parser 11724 25584 Created page 3 for PDF 5191fd29-c0ce-477e-958c-e809ca7e3816
+INFO 2025-11-09 21:01:47,308 views 40720 42104 Queued extraction for 3 pages: task 6b91dd30-9a83-44fa-96ae-4cf4278b4b23
+INFO 2025-11-09 21:01:48,639 tasks 11724 25584    Image path: D:\KABS\media\pdf_pages\2025\11\page_1_5191fd29-c0ce-477e-958c-e809ca7e3816.png
+INFO 2025-11-09 21:01:51,538 unified_extractor 11724 25584    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 21:01:51,540 unified_extractor 11724 25584    Region: eu-north-1
+INFO 2025-11-09 21:01:51,541 unified_extractor 11724 25584    Account: 774846457232
+INFO 2025-11-09 21:01:52,569 unified_extractor 11724 25584    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 21:02:07,666 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:02:07,674 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:02:07,676 tasks 11724 25584 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-09 21:02:07,677 tasks 11724 25584 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-09 21:02:07,678 tasks 11724 25584 After analyzing the kitchen layout drawing, here's the extracted SKU information:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 5,
+  "items": [
+    {
+      "label": "Foster Leonardo 33\" Zip water Faucet",
+      "category": "fixture",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 480, "y": 460},
+      "notes": "Water faucet specification"
+    },
+    {
+      "label": "SHARP Steam Oven SPD2470AYC Warming Drawer CPRU30BX",
+      "category": "appliance",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 520, "y": 675},
+      "notes": "Steam oven with warming drawer"
+    },
+    {
+      "label": "FLAT PNL 3/4",
+      "category": "panel",
+      "dimensions": {"width": null, "height": null, "depth": 0.75},
+      "position": {"x": 430, "y": 750},
+      "notes": "Panel specification"
+    },
+    {
+      "label": "WPDBCK SHELF WPDBCK SHELF",
+      "category": "shelf",
+      "dimensions": {"width": null
+INFO 2025-11-09 21:02:07,681 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:02:07,690 tasks 11724 25584    View Type: elevation
+INFO 2025-11-09 21:02:07,691 tasks 11724 25584    Total SKUs Claimed: 5
+INFO 2025-11-09 21:02:07,693 tasks 11724 25584    Items Array Length: 5
+INFO 2025-11-09 21:02:07,702 tasks 11724 25584    1. Foster Leonardo 33" Zip water Faucet (fixture) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:07,704 tasks 11724 25584    2. SHARP Steam Oven SPD2470AYC Warming Drawer CPRU30BX (appliance) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:07,705 tasks 11724 25584    3. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 21:02:07,706 tasks 11724 25584    4. WPDBCK SHELF WPDBCK SHELF (shelf) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:07,707 tasks 11724 25584    5. 610 hillsborough Display 17.kit (project_identifier) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:07,710 tasks 11724 25584 ======================================================================
+WARNING 2025-11-09 21:02:07,752 tasks 11724 25584    This may indicate extraction quality issues
+INFO 2025-11-09 21:02:07,968 tasks 11724 25584    Image path: D:\KABS\media\pdf_pages\2025\11\page_2_5191fd29-c0ce-477e-958c-e809ca7e3816.png
+INFO 2025-11-09 21:02:10,058 unified_extractor 11724 25584    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 21:02:10,060 unified_extractor 11724 25584    Region: eu-north-1
+INFO 2025-11-09 21:02:10,060 unified_extractor 11724 25584    Account: 774846457232
+INFO 2025-11-09 21:02:11,313 unified_extractor 11724 25584    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 21:02:43,481 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:02:43,488 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:02:43,489 tasks 11724 25584 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-09 21:02:43,491 tasks 11724 25584 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-09 21:02:43,492 tasks 11724 25584 I'll extract all the SKU codes from this kitchen elevation drawing:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 25,
+  "items": [
+    {
+      "label": "HIN-FLIPUP-AHK",
+      "category": "hardware",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 546, "y": 104},
+      "notes": "Blum Aventos HKS Flip Up Doors Power assist"
+    },
+    {
+      "label": "WP2424-15HK",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 24.0, "height": null, "depth": 15.0},
+      "position": {"x": 67, "y": 293},
+      "notes": "Wall cabinet with flip-up door"
+    },
+    {
+      "label": "WP3024-15HK",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": null, "depth": 15.0},
+      "position": {"x": 91, "y": 293},
+      "notes": "Wall cabinet with flip-up door"
+    },
+    {
+      "label": "WP3024-15HK",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": null, "depth": 15.0},
+      "positi
+INFO 2025-11-09 21:02:43,494 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:02:43,506 tasks 11724 25584    View Type: elevation
+INFO 2025-11-09 21:02:43,508 tasks 11724 25584    Total SKUs Claimed: 25
+INFO 2025-11-09 21:02:43,510 tasks 11724 25584    Items Array Length: 25
+INFO 2025-11-09 21:02:43,523 tasks 11724 25584    1. HIN-FLIPUP-AHK (hardware) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:43,524 tasks 11724 25584    2. WP2424-15HK (wall_cabinet) - W:24.0, H:None, D:15.0
+INFO 2025-11-09 21:02:43,527 tasks 11724 25584    3. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 21:02:43,528 tasks 11724 25584    4. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 21:02:43,531 tasks 11724 25584    5. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 21:02:43,533 tasks 11724 25584    6. WP3024-15HK (wall_cabinet) - W:30.0, H:None, D:15.0
+INFO 2025-11-09 21:02:43,534 tasks 11724 25584    7. WP3624-15HK (wall_cabinet) - W:36.0, H:None, D:15.0
+INFO 2025-11-09 21:02:43,536 tasks 11724 25584    8. WP1824-15HK (wall_cabinet) - W:18.0, H:None, D:15.0
+INFO 2025-11-09 21:02:43,537 tasks 11724 25584    9. ONLAY (panel) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:43,538 tasks 11724 25584    10. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 21:02:43,540 tasks 11724 25584    11. W2130-15L (wall_cabinet) - W:21.0, H:30.0, D:15.0
+INFO 2025-11-09 21:02:43,541 tasks 11724 25584    12. W4230-15 (wall_cabinet) - W:42.0, H:30.0, D:15.0
+INFO 2025-11-09 21:02:43,543 tasks 11724 25584    13. W2130-15R (wall_cabinet) - W:21.0, H:30.0, D:15.0
+INFO 2025-11-09 21:02:43,544 tasks 11724 25584    14. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 21:02:43,548 tasks 11724 25584    15. FLAT PNL 3/4 (panel) - W:None, H:None, D:0.75
+INFO 2025-11-09 21:02:43,550 tasks 11724 25584    16. FSEP (filler) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:43,552 tasks 11724 25584    17. Curio Cabinet w/ Lighting (wall_cabinet) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:43,553 tasks 11724 25584    18. B-3242484-1TDL (base_cabinet) - W:32.0, H:24.0, D:84.0
+INFO 2025-11-09 21:02:43,554 tasks 11724 25584    19. OV302D84 (oven_cabinet) - W:30.0, H:None, D:84.0
+INFO 2025-11-09 21:02:43,555 tasks 11724 25584    20. Rev-A-Shelf Pull Down Shelf FLAT PNL 3/4 5PD-4CRN (hardware) - W:None, H:None, D:0.75
+INFO 2025-11-09 21:02:43,556 tasks 11724 25584    21. BI-36U/O-RH (appliance) - W:36.0, H:None, D:None
+INFO 2025-11-09 21:02:43,557 tasks 11724 25584    22. B1824841-R (base_cabinet) - W:18.0, H:24.0, D:84.0
+INFO 2025-11-09 21:02:43,557 tasks 11724 25584    23. DISH-FIGE (appliance) - W:None, H:None, D:None
+INFO 2025-11-09 21:02:43,558 tasks 11724 25584    24. SB42FH (base_cabinet) - W:42.0, H:None, D:None
+INFO 2025-11-09 21:02:43,559 tasks 11724 25584    25. BTB24KSBFH (base_cabinet) - W:24.0, H:None, D:None
+INFO 2025-11-09 21:02:43,559 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:02:43,772 tasks 11724 25584    Image path: D:\KABS\media\pdf_pages\2025\11\page_3_5191fd29-c0ce-477e-958c-e809ca7e3816.png
+INFO 2025-11-09 21:02:45,901 unified_extractor 11724 25584    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 21:02:45,902 unified_extractor 11724 25584    Region: eu-north-1
+INFO 2025-11-09 21:02:45,902 unified_extractor 11724 25584    Account: 774846457232
+INFO 2025-11-09 21:02:47,163 unified_extractor 11724 25584    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-09 21:03:00,897 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:03:00,910 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:03:00,914 tasks 11724 25584 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-09 21:03:00,971 tasks 11724 25584 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-09 21:03:01,035 tasks 11724 25584 I'll analyze this kitchen/bathroom elevation drawing and extract all the SKU codes with their details.
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 6,
+  "items": [
+    {
+      "label": "CKT.36",
+      "category": "appliance",
+      "dimensions": {"width": 42.0, "height": null, "depth": null},
+      "position": {"x": 42, "y": 0},
+      "notes": "Cooktop appliance 36 inch"
+    },
+    {
+      "label": "DB24",
+      "category": "base_cabinet",
+      "dimensions": {"width": 24.0, "height": 34.5, "depth": null},
+      "position": {"x": 0, "y": 34},
+      "notes": "Drawer base cabinet 24 inch"
+    },
+    {
+      "label": "SB42FH",
+      "category": "base_cabinet",
+      "dimensions": {"width": 42.0, "height": 34.5, "depth": null},
+      "position": {"x": 24, "y": 34},
+      "notes": "Sink base cabinet 42 inch full height"
+    },
+    {
+      "label": "B15FHR",
+      "category": "base_cabinet",
+      "dimensions": {"width": 15.0, "height": 34.5, "depth": null},
+      "position": {"x":
+INFO 2025-11-09 21:03:01,156 tasks 11724 25584 ======================================================================
+INFO 2025-11-09 21:03:01,492 tasks 11724 25584    View Type: elevation
+INFO 2025-11-09 21:03:01,517 tasks 11724 25584    Total SKUs Claimed: 6
+INFO 2025-11-09 21:03:01,518 tasks 11724 25584    Items Array Length: 6
+INFO 2025-11-09 21:03:01,525 tasks 11724 25584    1. CKT.36 (appliance) - W:42.0, H:None, D:None
+INFO 2025-11-09 21:03:01,525 tasks 11724 25584    2. DB24 (base_cabinet) - W:24.0, H:34.5, D:None
+INFO 2025-11-09 21:03:01,526 tasks 11724 25584    3. SB42FH (base_cabinet) - W:42.0, H:34.5, D:None
+INFO 2025-11-09 21:03:01,527 tasks 11724 25584    4. B15FHR (base_cabinet) - W:15.0, H:34.5, D:None
+INFO 2025-11-09 21:03:01,528 tasks 11724 25584    5. USF330B (filler) - W:3.0, H:34.5, D:None
+INFO 2025-11-09 21:03:01,528 tasks 11724 25584    6. DB24-2D (base_cabinet) - W:24.0, H:34.5, D:None
+INFO 2025-11-09 21:03:01,528 tasks 11724 25584 ======================================================================
+WARNING 2025-11-09 21:03:01,757 tasks 11724 25584    This may indicate extraction quality issues
+INFO 2025-11-09 21:03:49,744 sku_matcher 40720 40688    Found 5 items to match
+INFO 2025-11-09 21:03:49,745 sku_matcher 40720 40688    Item 1: Processing 'Foster Leonardo 33" Zip water Faucet' (category: fixture)
+INFO 2025-11-09 21:03:49,853 sku_matcher 40720 40688    Item 2: Processing 'SHARP Steam Oven SPD2470AYC Warming Drawer CPRU30BX' (category: appliance)
+INFO 2025-11-09 21:03:49,889 sku_matcher 40720 40688    Item 3: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 21:03:49,927 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:49,929 sku_matcher 40720 40688    Item 4: Processing 'WPDBCK SHELF WPDBCK SHELF' (category: shelf)
+INFO 2025-11-09 21:03:49,982 sku_matcher 40720 40688    Item 5: Processing '610 hillsborough Display 17.kit' (category: project_identifier)
+INFO 2025-11-09 21:03:50,055 sku_matcher 40720 40688    Found 25 items to match
+INFO 2025-11-09 21:03:50,056 sku_matcher 40720 40688    Item 1: Processing 'HIN-FLIPUP-AHK' (category: hardware)
+INFO 2025-11-09 21:03:50,101 sku_matcher 40720 40688    Item 2: Processing 'WP2424-15HK' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,122 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,122 sku_matcher 40720 40688    Item 3: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,153 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,153 sku_matcher 40720 40688    Item 4: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,181 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,181 sku_matcher 40720 40688    Item 5: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,207 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,207 sku_matcher 40720 40688    Item 6: Processing 'WP3024-15HK' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,237 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,238 sku_matcher 40720 40688    Item 7: Processing 'WP3624-15HK' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,266 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,267 sku_matcher 40720 40688    Item 8: Processing 'WP1824-15HK' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,288 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,289 sku_matcher 40720 40688    Item 9: Processing 'ONLAY' (category: panel)
+INFO 2025-11-09 21:03:50,323 sku_matcher 40720 40688    Item 10: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 21:03:50,349 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,350 sku_matcher 40720 40688    Item 11: Processing 'W2130-15L' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,397 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,399 sku_matcher 40720 40688    Item 12: Processing 'W4230-15' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,604 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,605 sku_matcher 40720 40688    Item 13: Processing 'W2130-15R' (category: wall_cabinet)
+INFO 2025-11-09 21:03:50,936 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:50,937 sku_matcher 40720 40688    Item 14: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 21:03:51,382 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:51,382 sku_matcher 40720 40688    Item 15: Processing 'FLAT PNL 3/4' (category: panel)
+INFO 2025-11-09 21:03:51,437 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:51,438 sku_matcher 40720 40688    Item 16: Processing 'FSEP' (category: filler)
+INFO 2025-11-09 21:03:51,482 sku_matcher 40720 40688    Item 17: Processing 'Curio Cabinet w/ Lighting' (category: wall_cabinet)
+INFO 2025-11-09 21:03:51,517 sku_matcher 40720 40688    Item 18: Processing 'B-3242484-1TDL' (category: base_cabinet)
+INFO 2025-11-09 21:03:51,559 sku_matcher 40720 40688       Method: fuzzy_code (0.89)
+INFO 2025-11-09 21:03:51,562 sku_matcher 40720 40688    Item 19: Processing 'OV302D84' (category: oven_cabinet)
+INFO 2025-11-09 21:03:51,596 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:51,597 sku_matcher 40720 40688    Item 20: Processing 'Rev-A-Shelf Pull Down Shelf FLAT PNL 3/4 5PD-4CRN' (category: hardware)
+INFO 2025-11-09 21:03:51,645 sku_matcher 40720 40688       Method: dimensions (0.73)
+INFO 2025-11-09 21:03:51,649 sku_matcher 40720 40688    Item 21: Processing 'BI-36U/O-RH' (category: appliance)
+INFO 2025-11-09 21:03:51,914 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:51,915 sku_matcher 40720 40688    Item 22: Processing 'B1824841-R' (category: base_cabinet)
+INFO 2025-11-09 21:03:51,981 sku_matcher 40720 40688       Method: fuzzy_code (0.86)
+INFO 2025-11-09 21:03:51,982 sku_matcher 40720 40688    Item 23: Processing 'DISH-FIGE' (category: appliance)
+INFO 2025-11-09 21:03:52,828 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:53,143 sku_matcher 40720 40688    Item 24: Processing 'SB42FH' (category: base_cabinet)
+INFO 2025-11-09 21:03:53,570 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:53,593 sku_matcher 40720 40688    Item 25: Processing 'BTB24KSBFH' (category: base_cabinet)
+INFO 2025-11-09 21:03:53,851 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:53,898 sku_matcher 40720 40688    Found 6 items to match
+INFO 2025-11-09 21:03:53,899 sku_matcher 40720 40688    Item 1: Processing 'CKT.36' (category: appliance)
+INFO 2025-11-09 21:03:53,924 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:53,927 sku_matcher 40720 40688    Item 2: Processing 'DB24' (category: base_cabinet)
+INFO 2025-11-09 21:03:53,951 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:53,952 sku_matcher 40720 40688    Item 3: Processing 'SB42FH' (category: base_cabinet)
+INFO 2025-11-09 21:03:53,979 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:53,979 sku_matcher 40720 40688    Item 4: Processing 'B15FHR' (category: base_cabinet)
+INFO 2025-11-09 21:03:53,999 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:53,999 sku_matcher 40720 40688    Item 5: Processing 'USF330B' (category: filler)
+INFO 2025-11-09 21:03:54,027 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:54,028 sku_matcher 40720 40688    Item 6: Processing 'DB24-2D' (category: base_cabinet)
+INFO 2025-11-09 21:03:54,047 sku_matcher 40720 40688       Method: exact_code
+INFO 2025-11-09 21:03:54,061 views 40720 40688 Matched 28 items for project 1f81bc55-1158-4601-b066-80207fab938f
+INFO 2025-11-09 21:04:06,840 views 40720 38976 Queued 3 renders for project 1f81bc55-1158-4601-b066-80207fab938f: task 4d8c2567-1a92-4422-9af4-fa633b2cc03a
+INFO 2025-11-09 21:04:09,989 gemini_renderer 11724 25584    SKUs matched: 1
+INFO 2025-11-09 21:04:11,863 gemini_renderer 11724 25584    SKUs matched: 21
+INFO 2025-11-09 21:04:14,007 gemini_renderer 11724 25584    SKUs matched: 6
+INFO 2025-11-17 10:21:56,726 views 13896 16780 Queued PDF conversion for project 15f54555-e597-431a-9eea-9ff7c67bc60b: task 19915cf5-46f3-4e8f-828e-458a14e82548
+INFO 2025-11-17 10:22:30,795 views 13896 15160 Queued PDF conversion for project 69146c31-85ca-4a01-a5b7-3f46d432978a: task a832638f-40f9-4a08-bbcd-bd1836634048
+INFO 2025-11-17 10:22:41,383 pdf_parser 19052 9988 Converting PDF 7608959e-6823-4d5b-9759-7790812e7c6b to images at 300 DPI
+INFO 2025-11-17 10:22:47,327 pdf_parser 19052 9988 Created page 1 for PDF 7608959e-6823-4d5b-9759-7790812e7c6b
+INFO 2025-11-17 10:22:47,676 pdf_parser 19052 9988 Created page 2 for PDF 7608959e-6823-4d5b-9759-7790812e7c6b
+INFO 2025-11-17 10:22:48,686 pdf_parser 19052 9988 Created page 3 for PDF 7608959e-6823-4d5b-9759-7790812e7c6b
+INFO 2025-11-17 10:22:51,944 pdf_parser 19052 9988 Converting PDF 0c6d9907-7149-4c50-ad7f-943ce2f496d1 to images at 300 DPI
+INFO 2025-11-17 10:22:57,050 pdf_parser 19052 9988 Created page 1 for PDF 0c6d9907-7149-4c50-ad7f-943ce2f496d1
+INFO 2025-11-17 10:22:57,951 pdf_parser 19052 9988 Created page 2 for PDF 0c6d9907-7149-4c50-ad7f-943ce2f496d1
+INFO 2025-11-17 10:22:58,952 pdf_parser 19052 9988 Created page 3 for PDF 0c6d9907-7149-4c50-ad7f-943ce2f496d1
+INFO 2025-11-17 10:23:04,309 views 13896 26628 Queued extraction for 3 pages: task 5bef2f51-8c1a-46d8-bda7-c85d0b441059
+INFO 2025-11-17 10:23:04,664 tasks 19052 9988    Image path: D:\KABS\media\pdf_pages\2025\11\page_1_0c6d9907-7149-4c50-ad7f-943ce2f496d1.png
+INFO 2025-11-17 10:23:08,891 unified_extractor 19052 9988    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 10:23:08,892 unified_extractor 19052 9988    Region: eu-north-1
+INFO 2025-11-17 10:23:08,893 unified_extractor 19052 9988    Account: 774846457232
+INFO 2025-11-17 10:23:10,170 unified_extractor 19052 9988    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 10:23:34,284 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:23:34,287 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:23:34,288 tasks 19052 9988 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 10:23:34,289 tasks 19052 9988 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 10:23:34,291 tasks 19052 9988 I've analyzed the kitchen layout drawing and extracted all visible SKU codes. Here's the comprehensive list:
+
+```json
+{
+  "view_type": "plan",
+  "total_skus": 19,
+  "items": [
+    {
+      "label": "P2490",
+      "category": "panel",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 28, "y": 120},
+      "notes": "Panel component"
+    },
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 64, "y": 120},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "DB18-3",
+      "category": "base_cabinet",
+      "dimensions": {"width": 18.0, "height": null, "depth": null},
+      "position": {"x": 100, "y": 120},
+      "notes": "Drawer base cabinet"
+    },
+    {
+      "label": "LSEL6337F",
+      "category": "appliance",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 118, "y": 120},
+      "notes": "Appl
+INFO 2025-11-17 10:23:34,298 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:23:34,303 tasks 19052 9988    View Type: plan
+INFO 2025-11-17 10:23:34,304 tasks 19052 9988    Total SKUs Claimed: 19
+INFO 2025-11-17 10:23:34,307 tasks 19052 9988    Items Array Length: 19
+INFO 2025-11-17 10:23:34,314 tasks 19052 9988    1. P2490 (panel) - W:None, H:None, D:None
+INFO 2025-11-17 10:23:34,318 tasks 19052 9988    2. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 10:23:34,320 tasks 19052 9988    3. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 10:23:34,321 tasks 19052 9988    4. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 10:23:34,322 tasks 19052 9988    5. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 10:23:34,323 tasks 19052 9988    6. EP36RF (appliance) - W:36.0, H:None, D:None
+INFO 2025-11-17 10:23:34,323 tasks 19052 9988    7. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 10:23:34,324 tasks 19052 9988    8. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 10:23:34,325 tasks 19052 9988    9. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 10:23:34,325 tasks 19052 9988    10. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 10:23:34,326 tasks 19052 9988    11. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 10:23:34,326 tasks 19052 9988    12. B12 (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 10:23:34,327 tasks 19052 9988    13. B33 (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 10:23:34,328 tasks 19052 9988    14. DWP1236R (appliance) - W:12.0, H:36.0, D:None
+INFO 2025-11-17 10:23:34,328 tasks 19052 9988    15. B18L (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 10:23:34,329 tasks 19052 9988    16. DB30-2 (base_cabinet) - W:30.0, H:None, D:None
+INFO 2025-11-17 10:23:34,329 tasks 19052 9988    17. B18R (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 10:23:34,329 tasks 19052 9988    18. PSA986 (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 10:23:34,330 tasks 19052 9988    19. KSDW2311S (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 10:23:34,330 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:23:34,528 tasks 19052 9988    Image path: D:\KABS\media\pdf_pages\2025\11\page_2_0c6d9907-7149-4c50-ad7f-943ce2f496d1.png
+INFO 2025-11-17 10:23:38,495 unified_extractor 19052 9988    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 10:23:38,496 unified_extractor 19052 9988    Region: eu-north-1
+INFO 2025-11-17 10:23:38,497 unified_extractor 19052 9988    Account: 774846457232
+INFO 2025-11-17 10:23:39,684 unified_extractor 19052 9988    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 10:23:56,415 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:23:56,419 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:23:56,421 tasks 19052 9988 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 10:23:56,435 tasks 19052 9988 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 10:23:56,437 tasks 19052 9988 I'll analyze this kitchen elevation drawing and extract all the SKU codes visible.
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 9,
+  "items": [
+    {
+      "label": "CW2436L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 24.0, "height": 36.0, "depth": null},
+      "position": {"x": 24, "y": 34.5},
+      "notes": "Corner wall cabinet left"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 42, "y": 34.5},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W1836R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 108, "y": 34.5},
+      "notes": "Wall cabinet right"
+    },
+    {
+      "label": "W3636 DWP1236R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 36.0, "depth": null},
+      "position": {"x": 126, "y": 34.5},
+      "no
+INFO 2025-11-17 10:23:56,449 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:23:56,462 tasks 19052 9988    View Type: elevation
+INFO 2025-11-17 10:23:56,464 tasks 19052 9988    Total SKUs Claimed: 9
+INFO 2025-11-17 10:23:56,465 tasks 19052 9988    Items Array Length: 9
+INFO 2025-11-17 10:23:56,471 tasks 19052 9988    1. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 10:23:56,472 tasks 19052 9988    2. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 10:23:56,475 tasks 19052 9988    3. W1836R (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 10:23:56,475 tasks 19052 9988    4. W3636 DWP1236R (wall_cabinet) - W:36.0, H:36.0, D:None
+INFO 2025-11-17 10:23:56,476 tasks 19052 9988    5. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 10:23:56,476 tasks 19052 9988    6. B12L (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 10:23:56,477 tasks 19052 9988    7. SB36 (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 10:23:56,478 tasks 19052 9988    8. SKSDW2411R (appliance) - W:24.0, H:None, D:None
+INFO 2025-11-17 10:23:56,478 tasks 19052 9988    9. B33 DWR3R (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 10:23:56,479 tasks 19052 9988 ======================================================================
+WARNING 2025-11-17 10:23:56,513 tasks 19052 9988    This may indicate extraction quality issues
+INFO 2025-11-17 10:23:56,675 tasks 19052 9988    Image path: D:\KABS\media\pdf_pages\2025\11\page_3_0c6d9907-7149-4c50-ad7f-943ce2f496d1.png
+INFO 2025-11-17 10:23:59,678 unified_extractor 19052 9988    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 10:23:59,679 unified_extractor 19052 9988    Region: eu-north-1
+INFO 2025-11-17 10:23:59,680 unified_extractor 19052 9988    Account: 774846457232
+INFO 2025-11-17 10:24:01,194 unified_extractor 19052 9988    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 10:24:23,336 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:24:23,340 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:24:23,340 tasks 19052 9988 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 10:24:23,341 tasks 19052 9988 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 10:24:23,342 tasks 19052 9988 I'll extract all the SKU codes from this kitchen/bathroom layout drawing:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 13,
+  "items": [
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 64.5, "y": 32.0},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W3018",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": 18.0, "depth": null},
+      "position": {"x": 120.0, "y": 32.0},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 101.5, "y": 32.0},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W2136R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 21.0, "height": 36.0, "depth": null},
+      "position": {"x": 150.0, "y": 32.0},
+      "notes": "Wall cabinet right"
+INFO 2025-11-17 10:24:23,346 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:24:23,378 tasks 19052 9988    View Type: elevation
+INFO 2025-11-17 10:24:23,379 tasks 19052 9988    Total SKUs Claimed: 13
+INFO 2025-11-17 10:24:23,385 tasks 19052 9988    Items Array Length: 14
+INFO 2025-11-17 10:24:23,389 tasks 19052 9988    1. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 10:24:23,390 tasks 19052 9988    2. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 10:24:23,390 tasks 19052 9988    3. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 10:24:23,391 tasks 19052 9988    4. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 10:24:23,391 tasks 19052 9988    5. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 10:24:23,391 tasks 19052 9988    6. HMV8053U (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 10:24:23,391 tasks 19052 9988    7. TEP3 (base_cabinet) - W:None, H:None, D:None
+INFO 2025-11-17 10:24:23,392 tasks 19052 9988    8. P2490 (panel) - W:24.0, H:90.0, D:None
+INFO 2025-11-17 10:24:23,395 tasks 19052 9988    9. TEP3096R (base_cabinet) - W:30.0, H:96.0, D:None
+INFO 2025-11-17 10:24:23,396 tasks 19052 9988    10. LMXS28596S (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 10:24:23,402 tasks 19052 9988    11. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 10:24:23,402 tasks 19052 9988    12. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 10:24:23,403 tasks 19052 9988    13. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 10:24:23,404 tasks 19052 9988    14. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 10:24:23,405 tasks 19052 9988 ======================================================================
+INFO 2025-11-17 10:25:08,056 sku_matcher 13896 26376    Found 19 items to match
+INFO 2025-11-17 10:25:08,059 sku_matcher 13896 26376    Item 1: Processing 'P2490' (category: panel)
+INFO 2025-11-17 10:25:08,134 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,134 sku_matcher 13896 26376    Item 2: Processing 'W361824' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,153 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,153 sku_matcher 13896 26376    Item 3: Processing 'DB18-3' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,180 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,181 sku_matcher 13896 26376    Item 4: Processing 'LSEL6337F' (category: appliance)
+INFO 2025-11-17 10:25:08,199 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,202 sku_matcher 13896 26376    Item 5: Processing 'B09F' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,243 sku_matcher 13896 26376       Method: fuzzy_code (0.75)
+INFO 2025-11-17 10:25:08,244 sku_matcher 13896 26376    Item 6: Processing 'EP36RF' (category: appliance)
+INFO 2025-11-17 10:25:08,283 sku_matcher 13896 26376       Method: dimensions (0.73)
+INFO 2025-11-17 10:25:08,283 sku_matcher 13896 26376    Item 7: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,303 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,305 sku_matcher 13896 26376    Item 8: Processing 'W3018' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,327 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,328 sku_matcher 13896 26376    Item 9: Processing 'W2136R' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,344 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,345 sku_matcher 13896 26376    Item 10: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,367 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,367 sku_matcher 13896 26376    Item 11: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,392 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,392 sku_matcher 13896 26376    Item 12: Processing 'B12' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,421 sku_matcher 13896 26376       Method: fuzzy_code (0.86)
+INFO 2025-11-17 10:25:08,423 sku_matcher 13896 26376    Item 13: Processing 'B33' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,440 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,441 sku_matcher 13896 26376    Item 14: Processing 'DWP1236R' (category: appliance)
+INFO 2025-11-17 10:25:08,454 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,460 sku_matcher 13896 26376    Item 15: Processing 'B18L' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,493 sku_matcher 13896 26376       Method: fuzzy_code (0.86)
+INFO 2025-11-17 10:25:08,494 sku_matcher 13896 26376    Item 16: Processing 'DB30-2' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,638 sku_matcher 13896 26376       Method: dimensions (0.73)
+INFO 2025-11-17 10:25:08,640 sku_matcher 13896 26376    Item 17: Processing 'B18R' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,683 sku_matcher 13896 26376       Method: fuzzy_code (0.86)
+INFO 2025-11-17 10:25:08,683 sku_matcher 13896 26376    Item 18: Processing 'PSA986' (category: appliance)
+INFO 2025-11-17 10:25:08,709 sku_matcher 13896 26376    Item 19: Processing 'KSDW2311S' (category: appliance)
+INFO 2025-11-17 10:25:08,734 sku_matcher 13896 26376       Method: fuzzy_code (0.84)
+INFO 2025-11-17 10:25:08,760 sku_matcher 13896 26376    Found 9 items to match
+INFO 2025-11-17 10:25:08,761 sku_matcher 13896 26376    Item 1: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,778 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,779 sku_matcher 13896 26376    Item 2: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,797 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,797 sku_matcher 13896 26376    Item 3: Processing 'W1836R' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,815 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,816 sku_matcher 13896 26376    Item 4: Processing 'W3636 DWP1236R' (category: wall_cabinet)
+INFO 2025-11-17 10:25:08,848 sku_matcher 13896 26376       Method: dimensions (0.87)
+INFO 2025-11-17 10:25:08,849 sku_matcher 13896 26376    Item 5: Processing 'ER36R' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,867 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,867 sku_matcher 13896 26376    Item 6: Processing 'B12L' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,886 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,886 sku_matcher 13896 26376    Item 7: Processing 'SB36' (category: base_cabinet)
+INFO 2025-11-17 10:25:08,904 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:08,905 sku_matcher 13896 26376    Item 8: Processing 'SKSDW2411R' (category: appliance)
+INFO 2025-11-17 10:25:10,997 sku_matcher 13896 26376       Method: fuzzy_code (0.90)
+INFO 2025-11-17 10:25:10,998 sku_matcher 13896 26376    Item 9: Processing 'B33 DWR3R' (category: base_cabinet)
+INFO 2025-11-17 10:25:11,033 sku_matcher 13896 26376       Method: dimensions (0.73)
+INFO 2025-11-17 10:25:11,061 sku_matcher 13896 26376    Found 14 items to match
+INFO 2025-11-17 10:25:11,062 sku_matcher 13896 26376    Item 1: Processing 'W361824' (category: wall_cabinet)
+INFO 2025-11-17 10:25:11,082 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,083 sku_matcher 13896 26376    Item 2: Processing 'W3018' (category: wall_cabinet)
+INFO 2025-11-17 10:25:11,100 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,100 sku_matcher 13896 26376    Item 3: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 10:25:11,119 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,121 sku_matcher 13896 26376    Item 4: Processing 'W2136R' (category: wall_cabinet)
+INFO 2025-11-17 10:25:11,139 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,139 sku_matcher 13896 26376    Item 5: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 10:25:11,156 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,156 sku_matcher 13896 26376    Item 6: Processing 'HMV8053U' (category: appliance)
+INFO 2025-11-17 10:25:11,177 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,177 sku_matcher 13896 26376    Item 7: Processing 'TEP3' (category: base_cabinet)
+INFO 2025-11-17 10:25:11,200 sku_matcher 13896 26376    Item 8: Processing 'P2490' (category: panel)
+INFO 2025-11-17 10:25:11,216 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,217 sku_matcher 13896 26376    Item 9: Processing 'TEP3096R' (category: base_cabinet)
+INFO 2025-11-17 10:25:11,233 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,233 sku_matcher 13896 26376    Item 10: Processing 'LMXS28596S' (category: appliance)
+INFO 2025-11-17 10:25:11,249 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,249 sku_matcher 13896 26376    Item 11: Processing 'DB18-3' (category: base_cabinet)
+INFO 2025-11-17 10:25:11,267 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,268 sku_matcher 13896 26376    Item 12: Processing 'LSEL6337F' (category: appliance)
+INFO 2025-11-17 10:25:11,285 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,285 sku_matcher 13896 26376    Item 13: Processing 'B09F' (category: base_cabinet)
+INFO 2025-11-17 10:25:11,314 sku_matcher 13896 26376       Method: fuzzy_code (0.75)
+INFO 2025-11-17 10:25:11,314 sku_matcher 13896 26376    Item 14: Processing 'ER36R' (category: base_cabinet)
+INFO 2025-11-17 10:25:11,330 sku_matcher 13896 26376       Method: exact_code
+INFO 2025-11-17 10:25:11,340 views 13896 26376 Matched 40 items for project 69146c31-85ca-4a01-a5b7-3f46d432978a
+INFO 2025-11-17 10:25:31,005 views 13896 17272 Queued 3 renders for project 69146c31-85ca-4a01-a5b7-3f46d432978a: task 15e563f8-68b1-46e8-a12f-51977a0887d0
+INFO 2025-11-17 10:25:32,339 gemini_renderer 19052 9988    SKUs matched: 9
+INFO 2025-11-17 10:25:35,133 gemini_renderer 19052 9988    SKUs matched: 13
+INFO 2025-11-17 10:29:34,073 views 13896 9620 Generated report data for project 69146c31-85ca-4a01-a5b7-3f46d432978a
+INFO 2025-11-17 16:37:48,104 views 29016 23864 Queued PDF conversion for project 0f0e9e0d-66ca-4dc8-a07b-efc161b7f5b1: task 5256671b-6586-41e4-886c-e9721358c8d8
+INFO 2025-11-17 16:38:50,525 views 29016 11128 Queued PDF conversion for project d0745272-c83b-4c4b-ac5e-276330d71055: task 694434c3-7d29-4846-8fba-3b6579f28e77
+INFO 2025-11-17 16:39:09,055 pdf_parser 32964 14860 Converting PDF 4b622be7-576b-4432-b646-2c4a834a2c04 to images at 300 DPI
+INFO 2025-11-17 16:39:16,867 pdf_parser 32964 14860 Created page 1 for PDF 4b622be7-576b-4432-b646-2c4a834a2c04
+INFO 2025-11-17 16:39:17,668 pdf_parser 32964 14860 Created page 2 for PDF 4b622be7-576b-4432-b646-2c4a834a2c04
+INFO 2025-11-17 16:39:18,392 pdf_parser 32964 14860 Created page 3 for PDF 4b622be7-576b-4432-b646-2c4a834a2c04
+INFO 2025-11-17 16:39:21,632 pdf_parser 32964 14860 Converting PDF 14709157-14e8-4c0c-8987-1fa98a34d3b8 to images at 300 DPI
+INFO 2025-11-17 16:39:22,665 views 29016 26568 Queued extraction for 3 pages: task 907f53c6-5e77-4082-b84d-6172e26f24f9
+INFO 2025-11-17 16:39:24,842 pdf_parser 32964 14860 Created page 1 for PDF 14709157-14e8-4c0c-8987-1fa98a34d3b8
+INFO 2025-11-17 16:39:25,215 pdf_parser 32964 14860 Created page 2 for PDF 14709157-14e8-4c0c-8987-1fa98a34d3b8
+INFO 2025-11-17 16:39:25,596 pdf_parser 32964 14860 Created page 3 for PDF 14709157-14e8-4c0c-8987-1fa98a34d3b8
+INFO 2025-11-17 16:39:25,880 tasks 32964 14860    Image path: D:\KABS\media\pdf_pages\2025\11\page_1_4b622be7-576b-4432-b646-2c4a834a2c04.png
+INFO 2025-11-17 16:39:27,523 unified_extractor 32964 14860    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:39:27,524 unified_extractor 32964 14860    Region: eu-north-1
+INFO 2025-11-17 16:39:27,524 unified_extractor 32964 14860    Account: 774846457232
+INFO 2025-11-17 16:39:27,909 unified_extractor 32964 14860    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:39:29,151 views 29016 29464 Queued extraction for 3 pages: task caf644ca-4520-45bd-8cec-9d6b237b8963
+INFO 2025-11-17 16:39:52,874 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:39:52,878 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:39:52,878 tasks 32964 14860 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 16:39:52,879 tasks 32964 14860 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 16:39:52,879 tasks 32964 14860 I've analyzed the kitchen layout drawing and extracted all visible SKU codes. Here's the comprehensive list:
+
+```json
+{
+  "view_type": "plan",
+  "total_skus": 19,
+  "items": [
+    {
+      "label": "P2490",
+      "category": "panel",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 28, "y": 120},
+      "notes": "Panel component"
+    },
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 60, "y": 120},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 96, "y": 120},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W3018",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": 18.0, "depth": null},
+      "position": {"x": 114, "y": 120},
+      "notes": "Wall cab
+INFO 2025-11-17 16:39:52,880 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:39:52,882 tasks 32964 14860    View Type: plan
+INFO 2025-11-17 16:39:52,883 tasks 32964 14860    Total SKUs Claimed: 19
+INFO 2025-11-17 16:39:52,883 tasks 32964 14860    Items Array Length: 19
+INFO 2025-11-17 16:39:52,885 tasks 32964 14860    1. P2490 (panel) - W:None, H:None, D:None
+INFO 2025-11-17 16:39:52,885 tasks 32964 14860    2. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 16:39:52,886 tasks 32964 14860    3. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:39:52,887 tasks 32964 14860    4. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 16:39:52,888 tasks 32964 14860    5. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 16:39:52,888 tasks 32964 14860    6. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 16:39:52,889 tasks 32964 14860    7. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 16:39:52,889 tasks 32964 14860    8. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:39:52,890 tasks 32964 14860    9. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 16:39:52,890 tasks 32964 14860    10. EPCRR (panel) - W:None, H:None, D:None
+INFO 2025-11-17 16:39:52,890 tasks 32964 14860    11. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:39:52,891 tasks 32964 14860    12. B12 (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 16:39:52,891 tasks 32964 14860    13. B33 (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 16:39:52,891 tasks 32964 14860    14. DWP1236R (appliance) - W:12.0, H:36.0, D:None
+INFO 2025-11-17 16:39:52,892 tasks 32964 14860    15. B18L (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 16:39:52,892 tasks 32964 14860    16. DB30-2 (base_cabinet) - W:30.0, H:None, D:None
+INFO 2025-11-17 16:39:52,892 tasks 32964 14860    17. B18R (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 16:39:52,893 tasks 32964 14860    18. PSA986 (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:39:52,893 tasks 32964 14860    19. R3R (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:39:52,893 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:39:53,039 tasks 32964 14860    Image path: D:\KABS\media\pdf_pages\2025\11\page_2_4b622be7-576b-4432-b646-2c4a834a2c04.png
+INFO 2025-11-17 16:39:54,889 unified_extractor 32964 14860    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:39:54,890 unified_extractor 32964 14860    Region: eu-north-1
+INFO 2025-11-17 16:39:54,892 unified_extractor 32964 14860    Account: 774846457232
+INFO 2025-11-17 16:39:55,734 unified_extractor 32964 14860    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:40:13,277 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:40:13,282 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:40:13,283 tasks 32964 14860 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 16:40:13,284 tasks 32964 14860 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 16:40:13,285 tasks 32964 14860 I'll analyze this kitchen elevation drawing and extract all the SKU codes:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 9,
+  "items": [
+    {
+      "label": "CW2436L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 24.0, "height": 36.0, "depth": null},
+      "position": {"x": 24, "y": 34.5},
+      "notes": "Corner wall cabinet left"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 42, "y": 34.5},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W1836R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 108, "y": 34.5},
+      "notes": "Wall cabinet right"
+    },
+    {
+      "label": "W3636 DWP1236R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 36.0, "depth": null},
+      "position": {"x": 126, "y": 34.5},
+      "notes": "W
+INFO 2025-11-17 16:40:13,286 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:40:13,295 tasks 32964 14860    View Type: elevation
+INFO 2025-11-17 16:40:13,297 tasks 32964 14860    Total SKUs Claimed: 9
+INFO 2025-11-17 16:40:13,299 tasks 32964 14860    Items Array Length: 9
+INFO 2025-11-17 16:40:13,307 tasks 32964 14860    1. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 16:40:13,311 tasks 32964 14860    2. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:40:13,315 tasks 32964 14860    3. W1836R (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:40:13,317 tasks 32964 14860    4. W3636 DWP1236R (wall_cabinet) - W:36.0, H:36.0, D:None
+INFO 2025-11-17 16:40:13,319 tasks 32964 14860    5. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 16:40:13,322 tasks 32964 14860    6. B12L (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 16:40:13,324 tasks 32964 14860    7. SB36 (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 16:40:13,326 tasks 32964 14860    8. SKSDW2411R (appliance) - W:24.0, H:None, D:None
+INFO 2025-11-17 16:40:13,330 tasks 32964 14860    9. B33 DWR3R (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 16:40:13,332 tasks 32964 14860 ======================================================================
+WARNING 2025-11-17 16:40:13,390 tasks 32964 14860    This may indicate extraction quality issues
+INFO 2025-11-17 16:40:13,550 tasks 32964 14860    Image path: D:\KABS\media\pdf_pages\2025\11\page_3_4b622be7-576b-4432-b646-2c4a834a2c04.png
+INFO 2025-11-17 16:40:15,753 unified_extractor 32964 14860    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:40:15,753 unified_extractor 32964 14860    Region: eu-north-1
+INFO 2025-11-17 16:40:15,754 unified_extractor 32964 14860    Account: 774846457232
+INFO 2025-11-17 16:40:17,012 unified_extractor 32964 14860    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:40:41,955 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:40:41,960 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:40:41,961 tasks 32964 14860 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 16:40:41,962 tasks 32964 14860 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 16:40:41,963 tasks 32964 14860 I'll extract all the SKU codes from this kitchen/bathroom layout drawing:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 13,
+  "items": [
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 64.5, "y": 32},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W3018",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": 18.0, "depth": null},
+      "position": {"x": 120, "y": 32},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 102, "y": 32},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W2136R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 21.0, "height": 36.0, "depth": null},
+      "position": {"x": 150, "y": 32},
+      "notes": "Wall cabinet right"
+    },
+    {
+
+INFO 2025-11-17 16:40:41,967 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:40:41,978 tasks 32964 14860    View Type: elevation
+INFO 2025-11-17 16:40:41,980 tasks 32964 14860    Total SKUs Claimed: 13
+INFO 2025-11-17 16:40:41,981 tasks 32964 14860    Items Array Length: 14
+INFO 2025-11-17 16:40:42,001 tasks 32964 14860    1. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 16:40:42,003 tasks 32964 14860    2. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 16:40:42,005 tasks 32964 14860    3. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:40:42,010 tasks 32964 14860    4. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 16:40:42,011 tasks 32964 14860    5. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 16:40:42,013 tasks 32964 14860    6. HMV8053U (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:40:42,015 tasks 32964 14860    7. TEP3 (panel) - W:None, H:None, D:None
+INFO 2025-11-17 16:40:42,016 tasks 32964 14860    8. P2490 (panel) - W:24.0, H:90.0, D:None
+INFO 2025-11-17 16:40:42,018 tasks 32964 14860    9. TEP3096R (panel) - W:30.0, H:96.0, D:None
+INFO 2025-11-17 16:40:42,020 tasks 32964 14860    10. LMXS28596S (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:40:42,025 tasks 32964 14860    11. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 16:40:42,027 tasks 32964 14860    12. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:40:42,029 tasks 32964 14860    13. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 16:40:42,030 tasks 32964 14860    14. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 16:40:42,032 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:40:42,322 tasks 32964 14860    Image path: D:\KABS\media\pdf_pages\2025\11\page_1_14709157-14e8-4c0c-8987-1fa98a34d3b8.png
+INFO 2025-11-17 16:40:44,515 unified_extractor 32964 14860    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:40:44,516 unified_extractor 32964 14860    Region: eu-north-1
+INFO 2025-11-17 16:40:44,517 unified_extractor 32964 14860    Account: 774846457232
+INFO 2025-11-17 16:40:45,726 unified_extractor 32964 14860    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:41:12,781 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:12,787 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:12,788 tasks 32964 14860 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 16:41:12,790 tasks 32964 14860 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 16:41:12,791 tasks 32964 14860 I've analyzed the kitchen layout drawing and extracted all visible SKU codes. Here's the comprehensive list:
+
+```json
+{
+  "view_type": "plan",
+  "total_skus": 19,
+  "items": [
+    {
+      "label": "P2490",
+      "category": "panel",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 28, "y": 120},
+      "notes": "Panel component"
+    },
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 64, "y": 120},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "DB18-3",
+      "category": "base_cabinet",
+      "dimensions": {"width": 18.0, "height": null, "depth": null},
+      "position": {"x": 100, "y": 120},
+      "notes": "Drawer base cabinet"
+    },
+    {
+      "label": "LSEL6337F",
+      "category": "appliance",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 118, "y": 120},
+      "notes": "Appl
+INFO 2025-11-17 16:41:12,793 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:12,800 tasks 32964 14860    View Type: plan
+INFO 2025-11-17 16:41:12,802 tasks 32964 14860    Total SKUs Claimed: 19
+INFO 2025-11-17 16:41:12,804 tasks 32964 14860    Items Array Length: 19
+INFO 2025-11-17 16:41:12,812 tasks 32964 14860    1. P2490 (panel) - W:None, H:None, D:None
+INFO 2025-11-17 16:41:12,814 tasks 32964 14860    2. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 16:41:12,816 tasks 32964 14860    3. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 16:41:12,817 tasks 32964 14860    4. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:41:12,819 tasks 32964 14860    5. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 16:41:12,822 tasks 32964 14860    6. EP36RF (appliance) - W:36.0, H:None, D:None
+INFO 2025-11-17 16:41:12,824 tasks 32964 14860    7. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:41:12,825 tasks 32964 14860    8. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 16:41:12,827 tasks 32964 14860    9. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 16:41:12,828 tasks 32964 14860    10. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 16:41:12,830 tasks 32964 14860    11. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:41:12,832 tasks 32964 14860    12. B12 (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 16:41:12,834 tasks 32964 14860    13. B33 (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 16:41:12,836 tasks 32964 14860    14. W3636L (wall_cabinet) - W:36.0, H:36.0, D:None
+INFO 2025-11-17 16:41:12,847 tasks 32964 14860    15. DWP1236R (appliance) - W:12.0, H:36.0, D:None
+INFO 2025-11-17 16:41:12,849 tasks 32964 14860    16. KSDW2411S (appliance) - W:24.0, H:11.0, D:None
+INFO 2025-11-17 16:41:12,851 tasks 32964 14860    17. W1836R (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:41:12,853 tasks 32964 14860    18. B18L (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 16:41:12,855 tasks 32964 14860    19. DB30-2 (base_cabinet) - W:30.0, H:None, D:None
+INFO 2025-11-17 16:41:12,858 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:13,074 tasks 32964 14860    Image path: D:\KABS\media\pdf_pages\2025\11\page_2_14709157-14e8-4c0c-8987-1fa98a34d3b8.png
+INFO 2025-11-17 16:41:15,272 unified_extractor 32964 14860    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:41:15,273 unified_extractor 32964 14860    Region: eu-north-1
+INFO 2025-11-17 16:41:15,273 unified_extractor 32964 14860    Account: 774846457232
+INFO 2025-11-17 16:41:16,284 unified_extractor 32964 14860    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:41:24,479 sku_matcher 29016 30232    Found 19 items to match
+INFO 2025-11-17 16:41:24,481 sku_matcher 29016 30232    Item 1: Processing 'P2490' (category: panel)
+INFO 2025-11-17 16:41:24,591 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,592 sku_matcher 29016 30232    Item 2: Processing 'W361824' (category: wall_cabinet)
+INFO 2025-11-17 16:41:24,620 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,620 sku_matcher 29016 30232    Item 3: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:24,631 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,631 sku_matcher 29016 30232    Item 4: Processing 'W3018' (category: wall_cabinet)
+INFO 2025-11-17 16:41:24,640 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,640 sku_matcher 29016 30232    Item 5: Processing 'W2136R' (category: wall_cabinet)
+INFO 2025-11-17 16:41:24,657 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,657 sku_matcher 29016 30232    Item 6: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:24,666 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,666 sku_matcher 29016 30232    Item 7: Processing 'DB18-3' (category: base_cabinet)
+INFO 2025-11-17 16:41:24,675 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,676 sku_matcher 29016 30232    Item 8: Processing 'LSEL6337F' (category: appliance)
+INFO 2025-11-17 16:41:24,686 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:24,686 sku_matcher 29016 30232    Item 9: Processing 'B09F' (category: base_cabinet)
+INFO 2025-11-17 16:41:26,782 sku_matcher 29016 30232       Method: fuzzy_code (0.75)
+INFO 2025-11-17 16:41:26,783 sku_matcher 29016 30232    Item 10: Processing 'EPCRR' (category: panel)
+INFO 2025-11-17 16:41:26,822 sku_matcher 29016 30232    Item 11: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:26,848 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:26,848 sku_matcher 29016 30232    Item 12: Processing 'B12' (category: base_cabinet)
+INFO 2025-11-17 16:41:26,871 sku_matcher 29016 30232       Method: fuzzy_code (0.86)
+INFO 2025-11-17 16:41:26,872 sku_matcher 29016 30232    Item 13: Processing 'B33' (category: base_cabinet)
+INFO 2025-11-17 16:41:26,888 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:26,888 sku_matcher 29016 30232    Item 14: Processing 'DWP1236R' (category: appliance)
+INFO 2025-11-17 16:41:26,906 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:26,906 sku_matcher 29016 30232    Item 15: Processing 'B18L' (category: base_cabinet)
+INFO 2025-11-17 16:41:26,936 sku_matcher 29016 30232       Method: fuzzy_code (0.86)
+INFO 2025-11-17 16:41:26,937 sku_matcher 29016 30232    Item 16: Processing 'DB30-2' (category: base_cabinet)
+INFO 2025-11-17 16:41:26,985 sku_matcher 29016 30232       Method: dimensions (0.73)
+INFO 2025-11-17 16:41:26,985 sku_matcher 29016 30232    Item 17: Processing 'B18R' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,032 sku_matcher 29016 30232       Method: fuzzy_code (0.86)
+INFO 2025-11-17 16:41:27,033 sku_matcher 29016 30232    Item 18: Processing 'PSA986' (category: appliance)
+INFO 2025-11-17 16:41:27,067 sku_matcher 29016 30232    Item 19: Processing 'R3R' (category: appliance)
+INFO 2025-11-17 16:41:27,106 sku_matcher 29016 30232       Method: fuzzy_code (0.75)
+INFO 2025-11-17 16:41:27,148 sku_matcher 29016 30232    Found 9 items to match
+INFO 2025-11-17 16:41:27,149 sku_matcher 29016 30232    Item 1: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,170 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,170 sku_matcher 29016 30232    Item 2: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,192 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,192 sku_matcher 29016 30232    Item 3: Processing 'W1836R' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,213 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,214 sku_matcher 29016 30232    Item 4: Processing 'W3636 DWP1236R' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,232 sku_matcher 29016 30232       Method: dimensions (0.87)
+INFO 2025-11-17 16:41:27,232 sku_matcher 29016 30232    Item 5: Processing 'ER36R' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,245 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,245 sku_matcher 29016 30232    Item 6: Processing 'B12L' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,255 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,256 sku_matcher 29016 30232    Item 7: Processing 'SB36' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,273 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,273 sku_matcher 29016 30232    Item 8: Processing 'SKSDW2411R' (category: appliance)
+INFO 2025-11-17 16:41:27,293 sku_matcher 29016 30232       Method: fuzzy_code (0.90)
+INFO 2025-11-17 16:41:27,294 sku_matcher 29016 30232    Item 9: Processing 'B33 DWR3R' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,319 sku_matcher 29016 30232       Method: dimensions (0.73)
+INFO 2025-11-17 16:41:27,345 sku_matcher 29016 30232    Found 14 items to match
+INFO 2025-11-17 16:41:27,346 sku_matcher 29016 30232    Item 1: Processing 'W361824' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,364 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,364 sku_matcher 29016 30232    Item 2: Processing 'W3018' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,385 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,385 sku_matcher 29016 30232    Item 3: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,409 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,410 sku_matcher 29016 30232    Item 4: Processing 'W2136R' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,431 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,432 sku_matcher 29016 30232    Item 5: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:27,455 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,456 sku_matcher 29016 30232    Item 6: Processing 'HMV8053U' (category: appliance)
+INFO 2025-11-17 16:41:27,479 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,480 sku_matcher 29016 30232    Item 7: Processing 'TEP3' (category: panel)
+INFO 2025-11-17 16:41:27,500 sku_matcher 29016 30232    Item 8: Processing 'P2490' (category: panel)
+INFO 2025-11-17 16:41:27,514 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,514 sku_matcher 29016 30232    Item 9: Processing 'TEP3096R' (category: panel)
+INFO 2025-11-17 16:41:27,530 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,530 sku_matcher 29016 30232    Item 10: Processing 'LMXS28596S' (category: appliance)
+INFO 2025-11-17 16:41:27,551 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,551 sku_matcher 29016 30232    Item 11: Processing 'DB18-3' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,660 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,662 sku_matcher 29016 30232    Item 12: Processing 'LSEL6337F' (category: appliance)
+INFO 2025-11-17 16:41:27,679 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,680 sku_matcher 29016 30232    Item 13: Processing 'B09F' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,694 sku_matcher 29016 30232       Method: fuzzy_code (0.75)
+INFO 2025-11-17 16:41:27,694 sku_matcher 29016 30232    Item 14: Processing 'ER36R' (category: base_cabinet)
+INFO 2025-11-17 16:41:27,708 sku_matcher 29016 30232       Method: exact_code
+INFO 2025-11-17 16:41:27,712 views 29016 30232 Matched 39 items for project 0f0e9e0d-66ca-4dc8-a07b-efc161b7f5b1
+INFO 2025-11-17 16:41:30,694 sku_matcher 29016 26380    Found 19 items to match
+INFO 2025-11-17 16:41:30,695 sku_matcher 29016 26380    Item 1: Processing 'P2490' (category: panel)
+INFO 2025-11-17 16:41:30,734 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,735 sku_matcher 29016 26380    Item 2: Processing 'W361824' (category: wall_cabinet)
+INFO 2025-11-17 16:41:30,763 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,764 sku_matcher 29016 26380    Item 3: Processing 'DB18-3' (category: base_cabinet)
+INFO 2025-11-17 16:41:30,788 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,789 sku_matcher 29016 26380    Item 4: Processing 'LSEL6337F' (category: appliance)
+INFO 2025-11-17 16:41:30,813 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,814 sku_matcher 29016 26380    Item 5: Processing 'B09F' (category: base_cabinet)
+INFO 2025-11-17 16:41:30,833 sku_matcher 29016 26380       Method: fuzzy_code (0.75)
+INFO 2025-11-17 16:41:30,834 sku_matcher 29016 26380    Item 6: Processing 'EP36RF' (category: appliance)
+INFO 2025-11-17 16:41:30,849 sku_matcher 29016 26380       Method: dimensions (0.73)
+INFO 2025-11-17 16:41:30,849 sku_matcher 29016 26380    Item 7: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:30,859 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,859 sku_matcher 29016 26380    Item 8: Processing 'W3018' (category: wall_cabinet)
+INFO 2025-11-17 16:41:30,879 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,879 sku_matcher 29016 26380    Item 9: Processing 'W2136R' (category: wall_cabinet)
+INFO 2025-11-17 16:41:30,903 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,904 sku_matcher 29016 26380    Item 10: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:30,926 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,927 sku_matcher 29016 26380    Item 11: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:30,947 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,948 sku_matcher 29016 26380    Item 12: Processing 'B12' (category: base_cabinet)
+INFO 2025-11-17 16:41:30,978 sku_matcher 29016 26380       Method: fuzzy_code (0.86)
+INFO 2025-11-17 16:41:30,978 sku_matcher 29016 26380    Item 13: Processing 'B33' (category: base_cabinet)
+INFO 2025-11-17 16:41:30,998 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:30,998 sku_matcher 29016 26380    Item 14: Processing 'W3636L' (category: wall_cabinet)
+INFO 2025-11-17 16:41:31,033 sku_matcher 29016 26380       Method: fuzzy_code (0.91)
+INFO 2025-11-17 16:41:31,034 sku_matcher 29016 26380    Item 15: Processing 'DWP1236R' (category: appliance)
+INFO 2025-11-17 16:41:31,060 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:31,060 sku_matcher 29016 26380    Item 16: Processing 'KSDW2411S' (category: appliance)
+INFO 2025-11-17 16:41:31,095 sku_matcher 29016 26380       Method: fuzzy_code (0.95)
+INFO 2025-11-17 16:41:31,096 sku_matcher 29016 26380    Item 17: Processing 'W1836R' (category: wall_cabinet)
+INFO 2025-11-17 16:41:31,121 sku_matcher 29016 26380       Method: exact_code
+INFO 2025-11-17 16:41:31,122 sku_matcher 29016 26380    Item 18: Processing 'B18L' (category: base_cabinet)
+INFO 2025-11-17 16:41:31,157 sku_matcher 29016 26380       Method: fuzzy_code (0.86)
+INFO 2025-11-17 16:41:31,158 sku_matcher 29016 26380    Item 19: Processing 'DB30-2' (category: base_cabinet)
+INFO 2025-11-17 16:41:31,196 sku_matcher 29016 26380       Method: dimensions (0.73)
+INFO 2025-11-17 16:41:31,210 views 29016 26380 Matched 19 items for project d0745272-c83b-4c4b-ac5e-276330d71055
+INFO 2025-11-17 16:41:33,145 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:33,150 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:33,152 tasks 32964 14860 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 16:41:33,152 tasks 32964 14860 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 16:41:33,153 tasks 32964 14860 I'll analyze this kitchen elevation drawing and extract all the SKU codes:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 9,
+  "items": [
+    {
+      "label": "CW2436L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 24.0, "height": 36.0, "depth": null},
+      "position": {"x": 24, "y": 34.5},
+      "notes": "Corner wall cabinet left"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 42, "y": 34.5},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W1836R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 108, "y": 34.5},
+      "notes": "Wall cabinet right"
+    },
+    {
+      "label": "W3636 DWP1236R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 36.0, "depth": null},
+      "position": {"x": 126, "y": 34.5},
+      "notes": "W
+INFO 2025-11-17 16:41:33,154 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:33,159 tasks 32964 14860    View Type: elevation
+INFO 2025-11-17 16:41:33,159 tasks 32964 14860    Total SKUs Claimed: 9
+INFO 2025-11-17 16:41:33,160 tasks 32964 14860    Items Array Length: 9
+INFO 2025-11-17 16:41:33,162 tasks 32964 14860    1. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 16:41:33,162 tasks 32964 14860    2. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:41:33,163 tasks 32964 14860    3. W1836R (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:41:33,163 tasks 32964 14860    4. W3636 DWP1236R (wall_cabinet) - W:36.0, H:36.0, D:None
+INFO 2025-11-17 16:41:33,164 tasks 32964 14860    5. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 16:41:33,165 tasks 32964 14860    6. B12L (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 16:41:33,165 tasks 32964 14860    7. SB36 (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 16:41:33,166 tasks 32964 14860    8. SKSDW24113 (appliance) - W:24.0, H:None, D:None
+INFO 2025-11-17 16:41:33,166 tasks 32964 14860    9. B33 DWR3R (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 16:41:33,167 tasks 32964 14860 ======================================================================
+WARNING 2025-11-17 16:41:33,181 tasks 32964 14860    This may indicate extraction quality issues
+INFO 2025-11-17 16:41:33,303 tasks 32964 14860    Image path: D:\KABS\media\pdf_pages\2025\11\page_3_14709157-14e8-4c0c-8987-1fa98a34d3b8.png
+INFO 2025-11-17 16:41:35,165 unified_extractor 32964 14860    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:41:35,167 unified_extractor 32964 14860    Region: eu-north-1
+INFO 2025-11-17 16:41:35,168 unified_extractor 32964 14860    Account: 774846457232
+INFO 2025-11-17 16:41:36,135 unified_extractor 32964 14860    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 16:41:54,522 views 29016 22672 Queued 3 renders for project d0745272-c83b-4c4b-ac5e-276330d71055: task fc983cb6-2a6a-439f-8ffc-c41a2497a7cd
+INFO 2025-11-17 16:41:59,195 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:59,199 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:59,200 tasks 32964 14860 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 16:41:59,202 tasks 32964 14860 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 16:41:59,203 tasks 32964 14860 I'll extract all the SKU codes from this kitchen/bathroom layout drawing:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 12,
+  "items": [
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 64.5, "y": 32.0},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W3018",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": 18.0, "depth": null},
+      "position": {"x": 120.0, "y": 32.0},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 102.0, "y": 32.0},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W2136R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 21.0, "height": 36.0, "depth": null},
+      "position": {"x": 150.0, "y": 32.0},
+      "notes": "Wall cabinet right"
+INFO 2025-11-17 16:41:59,205 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:41:59,213 tasks 32964 14860    View Type: elevation
+INFO 2025-11-17 16:41:59,215 tasks 32964 14860    Total SKUs Claimed: 12
+INFO 2025-11-17 16:41:59,216 tasks 32964 14860    Items Array Length: 14
+INFO 2025-11-17 16:41:59,222 tasks 32964 14860    1. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 16:41:59,223 tasks 32964 14860    2. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 16:41:59,224 tasks 32964 14860    3. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 16:41:59,225 tasks 32964 14860    4. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 16:41:59,226 tasks 32964 14860    5. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 16:41:59,228 tasks 32964 14860    6. HMV8053U (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:41:59,229 tasks 32964 14860    7. TEP3 (base_cabinet) - W:None, H:None, D:None
+INFO 2025-11-17 16:41:59,230 tasks 32964 14860    8. P2490 (panel) - W:24.0, H:90.0, D:None
+INFO 2025-11-17 16:41:59,232 tasks 32964 14860    9. TEP3096R (base_cabinet) - W:30.0, H:96.0, D:None
+INFO 2025-11-17 16:41:59,233 tasks 32964 14860    10. LMXS28596S (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:41:59,235 tasks 32964 14860    11. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 16:41:59,236 tasks 32964 14860    12. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 16:41:59,237 tasks 32964 14860    13. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 16:41:59,237 tasks 32964 14860    14. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 16:41:59,238 tasks 32964 14860 ======================================================================
+INFO 2025-11-17 16:42:01,775 gemini_renderer 32964 14860    SKUs matched: 0
+INFO 2025-11-17 16:42:03,883 gemini_renderer 32964 14860    SKUs matched: 0
+INFO 2025-11-17 16:43:37,553 views 23464 29084 Queued 3 renders for project d0745272-c83b-4c4b-ac5e-276330d71055: task ee2fc85f-7da2-42a6-a387-17b75ad18cef
+INFO 2025-11-17 16:43:38,531 gemini_renderer 24700 29676    SKUs matched: 0
+INFO 2025-11-17 16:43:52,694 gemini_renderer 24700 29676    SKUs matched: 0
+INFO 2025-11-17 17:11:30,485 views 3184 29024 Queued PDF conversion for project 9dfb9b97-2c67-4db2-b093-1f805c5466ef: task d5dc316e-85dc-400c-b47a-40b81202d025
+INFO 2025-11-17 17:11:32,129 pdf_parser 22308 24596 Converting PDF d8906a50-c140-4155-bc50-49a21860b846 to images at 300 DPI
+INFO 2025-11-17 17:11:37,738 pdf_parser 22308 24596 Created page 1 for PDF d8906a50-c140-4155-bc50-49a21860b846
+INFO 2025-11-17 17:11:38,382 pdf_parser 22308 24596 Created page 2 for PDF d8906a50-c140-4155-bc50-49a21860b846
+INFO 2025-11-17 17:11:39,331 pdf_parser 22308 24596 Created page 3 for PDF d8906a50-c140-4155-bc50-49a21860b846
+INFO 2025-11-17 17:11:42,096 views 3184 29024 Queued extraction for 3 pages: task c26482d3-65f9-44a6-9427-70e25b923cd9
+INFO 2025-11-17 17:11:45,601 tasks 22308 24596    Image path: D:\KABS\media\pdf_pages\2025\11\page_1_d8906a50-c140-4155-bc50-49a21860b846.png
+INFO 2025-11-17 17:12:00,341 unified_extractor 22308 24596    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 17:12:00,342 unified_extractor 22308 24596    Region: eu-north-1
+INFO 2025-11-17 17:12:00,345 unified_extractor 22308 24596    Account: 774846457232
+INFO 2025-11-17 17:12:02,286 unified_extractor 22308 24596    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 17:12:37,090 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:12:37,093 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:12:37,094 tasks 22308 24596 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 17:12:37,094 tasks 22308 24596 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 17:12:37,095 tasks 22308 24596 I'll extract all the SKU codes from this kitchen layout drawing:
+
+```json
+{
+  "view_type": "plan",
+  "total_skus": 19,
+  "items": [
+    {
+      "label": "P2490",
+      "category": "panel",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 0, "y": 120},
+      "notes": "Panel component"
+    },
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 30, "y": 120},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "DB18-3",
+      "category": "base_cabinet",
+      "dimensions": {"width": 18.0, "height": null, "depth": null},
+      "position": {"x": 70, "y": 120},
+      "notes": "Drawer base cabinet"
+    },
+    {
+      "label": "LSEL6337F",
+      "category": "appliance",
+      "dimensions": {"width": null, "height": null, "depth": null},
+      "position": {"x": 90, "y": 120},
+      "notes": "Appliance component"
+    },
+    {
+      "label": "B
+INFO 2025-11-17 17:12:37,097 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:12:37,100 tasks 22308 24596    View Type: plan
+INFO 2025-11-17 17:12:37,101 tasks 22308 24596    Total SKUs Claimed: 19
+INFO 2025-11-17 17:12:37,101 tasks 22308 24596    Items Array Length: 19
+INFO 2025-11-17 17:12:37,104 tasks 22308 24596    1. P2490 (panel) - W:None, H:None, D:None
+INFO 2025-11-17 17:12:37,104 tasks 22308 24596    2. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 17:12:37,104 tasks 22308 24596    3. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 17:12:37,107 tasks 22308 24596    4. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 17:12:37,111 tasks 22308 24596    5. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 17:12:37,115 tasks 22308 24596    6. EP36RF (appliance) - W:36.0, H:None, D:None
+INFO 2025-11-17 17:12:37,115 tasks 22308 24596    7. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 17:12:37,115 tasks 22308 24596    8. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 17:12:37,116 tasks 22308 24596    9. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 17:12:37,116 tasks 22308 24596    10. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 17:12:37,116 tasks 22308 24596    11. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 17:12:37,117 tasks 22308 24596    12. B12 (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 17:12:37,117 tasks 22308 24596    13. B33 (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 17:12:37,117 tasks 22308 24596    14. W3636L (wall_cabinet) - W:36.0, H:36.0, D:None
+INFO 2025-11-17 17:12:37,118 tasks 22308 24596    15. DWP1236R (appliance) - W:12.0, H:36.0, D:None
+INFO 2025-11-17 17:12:37,118 tasks 22308 24596    16. KSDW2411S (appliance) - W:24.0, H:11.0, D:None
+INFO 2025-11-17 17:12:37,118 tasks 22308 24596    17. W1836R (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 17:12:37,119 tasks 22308 24596    18. B18L (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 17:12:37,119 tasks 22308 24596    19. DB30-2 (base_cabinet) - W:30.0, H:None, D:None
+INFO 2025-11-17 17:12:37,120 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:12:37,319 tasks 22308 24596    Image path: D:\KABS\media\pdf_pages\2025\11\page_2_d8906a50-c140-4155-bc50-49a21860b846.png
+INFO 2025-11-17 17:12:39,389 unified_extractor 22308 24596    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 17:12:39,390 unified_extractor 22308 24596    Region: eu-north-1
+INFO 2025-11-17 17:12:39,391 unified_extractor 22308 24596    Account: 774846457232
+INFO 2025-11-17 17:12:39,950 unified_extractor 22308 24596    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 17:13:00,627 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:13:01,030 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:13:01,065 tasks 22308 24596 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 17:13:01,067 tasks 22308 24596 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 17:13:01,068 tasks 22308 24596 I'll analyze this kitchen elevation drawing and extract all the SKU codes visible.
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 9,
+  "items": [
+    {
+      "label": "CW2436L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 24.0, "height": 36.0, "depth": null},
+      "position": {"x": 24, "y": 34.5},
+      "notes": "Corner wall cabinet left"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 42, "y": 34.5},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W1836R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 108, "y": 34.5},
+      "notes": "Wall cabinet right"
+    },
+    {
+      "label": "W3636 DWP1236R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 36.0, "depth": null},
+      "position": {"x": 126, "y": 34.5},
+      "no
+INFO 2025-11-17 17:13:01,072 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:13:01,101 tasks 22308 24596    View Type: elevation
+INFO 2025-11-17 17:13:01,103 tasks 22308 24596    Total SKUs Claimed: 9
+INFO 2025-11-17 17:13:01,113 tasks 22308 24596    Items Array Length: 9
+INFO 2025-11-17 17:13:01,118 tasks 22308 24596    1. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 17:13:01,119 tasks 22308 24596    2. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 17:13:01,121 tasks 22308 24596    3. W1836R (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 17:13:01,125 tasks 22308 24596    4. W3636 DWP1236R (wall_cabinet) - W:36.0, H:36.0, D:None
+INFO 2025-11-17 17:13:01,129 tasks 22308 24596    5. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 17:13:01,130 tasks 22308 24596    6. B12L (base_cabinet) - W:12.0, H:None, D:None
+INFO 2025-11-17 17:13:01,131 tasks 22308 24596    7. SB36 (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 17:13:01,131 tasks 22308 24596    8. SKSDW2411R (appliance) - W:24.0, H:None, D:None
+INFO 2025-11-17 17:13:01,132 tasks 22308 24596    9. B33 DWR3R (base_cabinet) - W:33.0, H:None, D:None
+INFO 2025-11-17 17:13:01,133 tasks 22308 24596 ======================================================================
+WARNING 2025-11-17 17:13:01,148 tasks 22308 24596    This may indicate extraction quality issues
+INFO 2025-11-17 17:13:01,335 tasks 22308 24596    Image path: D:\KABS\media\pdf_pages\2025\11\page_3_d8906a50-c140-4155-bc50-49a21860b846.png
+INFO 2025-11-17 17:13:03,665 unified_extractor 22308 24596    Model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 17:13:03,666 unified_extractor 22308 24596    Region: eu-north-1
+INFO 2025-11-17 17:13:03,666 unified_extractor 22308 24596    Account: 774846457232
+INFO 2025-11-17 17:13:04,411 unified_extractor 22308 24596    Using model: arn:aws:bedrock:eu-north-1:774846457232:inference-profile/eu.anthropic.claude-3-7-sonnet-20250219-v1:0
+INFO 2025-11-17 17:13:36,999 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:13:37,178 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:13:43,805 tasks 22308 24596 Service: bedrock_claude_3_7_sonnet_v1
+INFO 2025-11-17 17:13:43,815 tasks 22308 24596 
+Raw Response Preview (first 1000 chars):
+INFO 2025-11-17 17:13:43,817 tasks 22308 24596 I'll extract all the SKU codes from this kitchen/bathroom layout drawing:
+
+```json
+{
+  "view_type": "elevation",
+  "total_skus": 12,
+  "items": [
+    {
+      "label": "W361824",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 36.0, "height": 18.0, "depth": 24.0},
+      "position": {"x": 64.5, "y": 32.0},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W3018",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 30.0, "height": 18.0, "depth": null},
+      "position": {"x": 120.0, "y": 32.0},
+      "notes": "Wall cabinet"
+    },
+    {
+      "label": "W1836L",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 18.0, "height": 36.0, "depth": null},
+      "position": {"x": 102.0, "y": 32.0},
+      "notes": "Wall cabinet left"
+    },
+    {
+      "label": "W2136R",
+      "category": "wall_cabinet",
+      "dimensions": {"width": 21.0, "height": 36.0, "depth": null},
+      "position": {"x": 150.0, "y": 32.0},
+      "notes": "Wall cabinet right"
+INFO 2025-11-17 17:13:43,819 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:13:43,927 tasks 22308 24596    View Type: elevation
+INFO 2025-11-17 17:13:43,953 tasks 22308 24596    Total SKUs Claimed: 12
+INFO 2025-11-17 17:13:43,994 tasks 22308 24596    Items Array Length: 14
+INFO 2025-11-17 17:13:44,060 tasks 22308 24596    1. W361824 (wall_cabinet) - W:36.0, H:18.0, D:24.0
+INFO 2025-11-17 17:13:44,104 tasks 22308 24596    2. W3018 (wall_cabinet) - W:30.0, H:18.0, D:None
+INFO 2025-11-17 17:13:44,119 tasks 22308 24596    3. W1836L (wall_cabinet) - W:18.0, H:36.0, D:None
+INFO 2025-11-17 17:13:44,147 tasks 22308 24596    4. W2136R (wall_cabinet) - W:21.0, H:36.0, D:None
+INFO 2025-11-17 17:13:44,163 tasks 22308 24596    5. CW2436L (wall_cabinet) - W:24.0, H:36.0, D:None
+INFO 2025-11-17 17:13:44,238 tasks 22308 24596    6. HMV8053U (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 17:13:44,256 tasks 22308 24596    7. TEP3 (base_cabinet) - W:None, H:None, D:None
+INFO 2025-11-17 17:13:44,267 tasks 22308 24596    8. P2490 (panel) - W:24.0, H:90.0, D:None
+INFO 2025-11-17 17:13:44,278 tasks 22308 24596    9. TEP3096R (base_cabinet) - W:30.0, H:96.0, D:None
+INFO 2025-11-17 17:13:44,306 tasks 22308 24596    10. LMXS28596S (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 17:13:44,312 tasks 22308 24596    11. DB18-3 (base_cabinet) - W:18.0, H:None, D:None
+INFO 2025-11-17 17:13:44,313 tasks 22308 24596    12. LSEL6337F (appliance) - W:None, H:None, D:None
+INFO 2025-11-17 17:13:44,322 tasks 22308 24596    13. B09F (base_cabinet) - W:9.0, H:None, D:None
+INFO 2025-11-17 17:13:44,323 tasks 22308 24596    14. ER36R (base_cabinet) - W:36.0, H:None, D:None
+INFO 2025-11-17 17:13:44,323 tasks 22308 24596 ======================================================================
+INFO 2025-11-17 17:13:53,121 sku_matcher 3184 10568    Found 19 items to match
+INFO 2025-11-17 17:13:53,125 sku_matcher 3184 10568    Item 1: Processing 'P2490' (category: panel)
+INFO 2025-11-17 17:13:53,214 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,215 sku_matcher 3184 10568    Item 2: Processing 'W361824' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,284 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,285 sku_matcher 3184 10568    Item 3: Processing 'DB18-3' (category: base_cabinet)
+INFO 2025-11-17 17:13:53,409 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,409 sku_matcher 3184 10568    Item 4: Processing 'LSEL6337F' (category: appliance)
+INFO 2025-11-17 17:13:53,451 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,452 sku_matcher 3184 10568    Item 5: Processing 'B09F' (category: base_cabinet)
+INFO 2025-11-17 17:13:53,500 sku_matcher 3184 10568       Method: fuzzy_code (0.75)
+INFO 2025-11-17 17:13:53,500 sku_matcher 3184 10568    Item 6: Processing 'EP36RF' (category: appliance)
+INFO 2025-11-17 17:13:53,550 sku_matcher 3184 10568       Method: dimensions (0.73)
+INFO 2025-11-17 17:13:53,551 sku_matcher 3184 10568    Item 7: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,596 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,597 sku_matcher 3184 10568    Item 8: Processing 'W3018' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,633 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,636 sku_matcher 3184 10568    Item 9: Processing 'W2136R' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,667 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,667 sku_matcher 3184 10568    Item 10: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,706 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,708 sku_matcher 3184 10568    Item 11: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,744 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,744 sku_matcher 3184 10568    Item 12: Processing 'B12' (category: base_cabinet)
+INFO 2025-11-17 17:13:53,816 sku_matcher 3184 10568       Method: fuzzy_code (0.86)
+INFO 2025-11-17 17:13:53,817 sku_matcher 3184 10568    Item 13: Processing 'B33' (category: base_cabinet)
+INFO 2025-11-17 17:13:53,845 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,845 sku_matcher 3184 10568    Item 14: Processing 'W3636L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,880 sku_matcher 3184 10568       Method: fuzzy_code (0.91)
+INFO 2025-11-17 17:13:53,880 sku_matcher 3184 10568    Item 15: Processing 'DWP1236R' (category: appliance)
+INFO 2025-11-17 17:13:53,904 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,905 sku_matcher 3184 10568    Item 16: Processing 'KSDW2411S' (category: appliance)
+INFO 2025-11-17 17:13:53,933 sku_matcher 3184 10568       Method: fuzzy_code (0.95)
+INFO 2025-11-17 17:13:53,934 sku_matcher 3184 10568    Item 17: Processing 'W1836R' (category: wall_cabinet)
+INFO 2025-11-17 17:13:53,964 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:53,965 sku_matcher 3184 10568    Item 18: Processing 'B18L' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,028 sku_matcher 3184 10568       Method: fuzzy_code (0.86)
+INFO 2025-11-17 17:13:54,030 sku_matcher 3184 10568    Item 19: Processing 'DB30-2' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,086 sku_matcher 3184 10568       Method: dimensions (0.73)
+INFO 2025-11-17 17:13:54,165 sku_matcher 3184 10568    Found 9 items to match
+INFO 2025-11-17 17:13:54,167 sku_matcher 3184 10568    Item 1: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,210 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,211 sku_matcher 3184 10568    Item 2: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,251 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,252 sku_matcher 3184 10568    Item 3: Processing 'W1836R' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,298 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,299 sku_matcher 3184 10568    Item 4: Processing 'W3636 DWP1236R' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,349 sku_matcher 3184 10568       Method: dimensions (0.87)
+INFO 2025-11-17 17:13:54,350 sku_matcher 3184 10568    Item 5: Processing 'ER36R' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,376 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,376 sku_matcher 3184 10568    Item 6: Processing 'B12L' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,409 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,410 sku_matcher 3184 10568    Item 7: Processing 'SB36' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,441 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,441 sku_matcher 3184 10568    Item 8: Processing 'SKSDW2411R' (category: appliance)
+INFO 2025-11-17 17:13:54,480 sku_matcher 3184 10568       Method: fuzzy_code (0.90)
+INFO 2025-11-17 17:13:54,482 sku_matcher 3184 10568    Item 9: Processing 'B33 DWR3R' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,531 sku_matcher 3184 10568       Method: dimensions (0.73)
+INFO 2025-11-17 17:13:54,584 sku_matcher 3184 10568    Found 14 items to match
+INFO 2025-11-17 17:13:54,585 sku_matcher 3184 10568    Item 1: Processing 'W361824' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,615 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,615 sku_matcher 3184 10568    Item 2: Processing 'W3018' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,645 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,646 sku_matcher 3184 10568    Item 3: Processing 'W1836L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,672 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,673 sku_matcher 3184 10568    Item 4: Processing 'W2136R' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,700 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,701 sku_matcher 3184 10568    Item 5: Processing 'CW2436L' (category: wall_cabinet)
+INFO 2025-11-17 17:13:54,731 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,731 sku_matcher 3184 10568    Item 6: Processing 'HMV8053U' (category: appliance)
+INFO 2025-11-17 17:13:54,776 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,776 sku_matcher 3184 10568    Item 7: Processing 'TEP3' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,819 sku_matcher 3184 10568    Item 8: Processing 'P2490' (category: panel)
+INFO 2025-11-17 17:13:54,848 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,849 sku_matcher 3184 10568    Item 9: Processing 'TEP3096R' (category: base_cabinet)
+INFO 2025-11-17 17:13:54,878 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:54,880 sku_matcher 3184 10568    Item 10: Processing 'LMXS28596S' (category: appliance)
+INFO 2025-11-17 17:13:55,162 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:55,163 sku_matcher 3184 10568    Item 11: Processing 'DB18-3' (category: base_cabinet)
+INFO 2025-11-17 17:13:55,193 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:55,194 sku_matcher 3184 10568    Item 12: Processing 'LSEL6337F' (category: appliance)
+INFO 2025-11-17 17:13:55,227 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:55,227 sku_matcher 3184 10568    Item 13: Processing 'B09F' (category: base_cabinet)
+INFO 2025-11-17 17:13:55,267 sku_matcher 3184 10568       Method: fuzzy_code (0.75)
+INFO 2025-11-17 17:13:55,268 sku_matcher 3184 10568    Item 14: Processing 'ER36R' (category: base_cabinet)
+INFO 2025-11-17 17:13:55,295 sku_matcher 3184 10568       Method: exact_code
+INFO 2025-11-17 17:13:55,323 views 3184 10568 Matched 41 items for project 9dfb9b97-2c67-4db2-b093-1f805c5466ef
+INFO 2025-11-17 17:14:22,051 views 3184 10568 Queued 3 renders for project 9dfb9b97-2c67-4db2-b093-1f805c5466ef: task df5ed83d-8ce0-40c9-8266-059b6fcb8c8d
+INFO 2025-11-17 17:14:30,978 gemini_renderer 22308 24596    SKUs matched: 9
+INFO 2025-11-17 17:15:08,475 gemini_renderer 22308 24596    SKUs matched: 13
+INFO 2025-11-17 17:18:04,269 views 3184 29264 Generated report data for project 9dfb9b97-2c67-4db2-b093-1f805c5466ef

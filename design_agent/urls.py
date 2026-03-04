@@ -13,12 +13,19 @@ from .preview_3d_views import (
     batch_generate_3d_previews,
     get_3d_preview
 )
+from django.http import JsonResponse
+
+def health_check(request):
+    return JsonResponse({"status": "ok"})
+
+
 # Create router for ViewSets
 router = DefaultRouter()
 router.register(r'projects', views.ProjectViewSet, basename='project')
 
 urlpatterns = [
-path('auth/register/', auth_views.register, name='auth-register'),
+    path('health/', health_check),
+    path('auth/register/', auth_views.register, name='auth-register'),
     path('auth/login/', auth_views.login, name='auth-login'),
     path('auth/logout/', auth_views.logout, name='auth-logout'),
     path('auth/profile/', auth_views.profile, name='auth-profile'),

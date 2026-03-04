@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-8&l+98ni0)q)&%+%l0di75$1mtliv+l5ebgag4kfkpp1*dp5uo')
 DEBUG = config('DEBUG', default=True, cast=bool)
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','dogfish-primary-remarkably.ngrok-free.app' ,'*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','dogfish-primary-remarkably.ngrok-free.app' ,]
 
 # PDF Processing Settings
 PDF_DPI = 300  # DPI for PDF to image conversion
@@ -130,7 +130,7 @@ for subdir in MEDIA_SUBDIRS:
     os.makedirs(os.path.join(MEDIA_ROOT, subdir), exist_ok=True)
 
 # CORS
-CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     'https://dogfish-primary-remarkably.ngrok-free.app',
     'http://localhost:5173',
