@@ -1,0 +1,46 @@
+API Endpoint,HTTP Method,Functionality / Description,Workflow Step
+/api/health/,GET,Health check endpoint to ensure API is running.,System Health
+/api/auth/register/,POST,Register a new user.,Authentication
+/api/auth/login/,POST,Authenticate user and return tokens.,Authentication
+/api/auth/logout/,POST,Logout user and invalidate session/tokens.,Authentication
+/api/auth/profile/,GET,Retrieve the authenticated user's profile.,Authentication
+/api/projects/,GET,List all projects for the authenticated user.,Projects Management
+/api/projects/,POST,Create a new design project.,Projects Management
+/api/projects/{id}/,GET,Retrieve details of a specific project.,Projects Management
+/api/projects/{id}/,PUT/PATCH,Update details of a specific project.,Projects Management
+/api/projects/{id}/,DELETE,Delete a specific project.,Projects Management
+/api/projects/{id}/duplicate/,POST,Duplicate an existing project.,Projects Management
+/api/projects/{id}/metadata/,PUT/PATCH,Update project metadata.,Projects Management
+/api/projects/{id}/edit/,GET,Load project data for editing in the UI.,Projects Management
+/api/projects/{id}/status/,GET,Get the current processing status of the project.,Project Processing Flow
+/api/projects/{id}/summary/,GET,Get a complete summary of the project including extractions and pricing.,Project Processing Flow
+/api/projects/{id}/upload_pdf/,POST,Upload architectural or design PDF files for the project.,Project Processing Flow
+/api/projects/{id}/files/,GET,Retrieve the list of uploaded PDF files.,Project Processing Flow
+/api/projects/{id}/extract_layout/,POST,Trigger AI-based layout extraction from the uploaded PDFs.,Project Processing Flow
+/api/projects/{id}/extraction_results/,GET,Retrieve the results of the layout extraction.,Project Processing Flow
+/api/projects/{id}/match_skus/,POST,Match extracted layout items to product SKUs (Search in ChromaDB).,Project Processing Flow
+/api/projects/{id}/validate_skus/,GET,Validate images for the matched SKUs.,Project Processing Flow
+/api/projects/{id}/skus/replace/,POST,Replace a matched SKU with a different one.,Project Processing Flow
+/api/projects/{id}/generate_renders/,POST,Generate 2D/3D renders using AI based on the layout and matched SKUs.,Rendering
+/api/projects/{id}/renders/,GET,Retrieve all generated renders for the project.,Rendering
+/api/projects/{id}/renders/{render_id}/regenerate/,POST,Regenerate a specific render if not satisfied.,Rendering
+/api/projects/{id}/renders/history/,GET,View the history of generated renders.,Rendering
+/api/projects/{id}/pages/{page_number}/generate_3d_preview/,POST,Generate a 3D preview for a specific page.,Rendering (3D)
+/api/projects/{id}/generate_all_3d_previews/,POST,Batch generate 3D previews for all pages.,Rendering (3D)
+/api/projects/{id}/pages/{page_number}/3d_preview/,GET,Retrieve the 3D preview for a specific page.,Rendering (3D)
+/api/projects/{id}/pricing/generate/,POST,Generate a pricing estimate based on the matched SKUs and layout.,Pricing
+/api/projects/{id}/pricing/,GET,Retrieve the generated pricing estimate for the project.,Pricing
+/api/projects/{id}/pricing/items/,POST,Add a custom item to the project pricing.,Pricing
+/api/projects/{id}/pricing/items/{item_id}/,PUT/PATCH,Update a specific pricing item.,Pricing
+/api/projects/{id}/pricing/items/{item_id}/delete/,DELETE,Delete a specific pricing item.,Pricing
+/api/projects/{id}/pricing/update/,POST,Update the overall project pricing.,Pricing
+/api/projects/{id}/pricing/lock/,POST,Lock the pricing so it cannot be further modified.,Pricing
+/api/projects/{id}/pricing/unlock/,POST,Unlock the pricing to allow modifications.,Pricing
+/api/projects/{id}/annotations/,GET,List all annotations added to the project renders.,Annotations
+/api/projects/{id}/annotations/create/,POST,Create a new annotation on a render.,Annotations
+/api/projects/{id}/annotations/{annotation_id}/,PUT/PATCH,Update an existing annotation.,Annotations
+/api/projects/{id}/annotations/{annotation_id}/delete/,DELETE,Delete an annotation.,Annotations
+/api/projects/{id}/approve/,POST,Approve the project design and pricing.,Approval
+/api/projects/{id}/unapprove/,POST,Revoke the approval of the project.,Approval
+/api/projects/{id}/approval/,GET,Get the current approval status of the project.,Approval
+/api/projects/{id}/download_report/,GET,Generate and download the final PDF report containing renders and pricing.,Reporting
